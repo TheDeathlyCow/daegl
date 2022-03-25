@@ -3,9 +3,11 @@
 effect clear @s
 effect give @s instant_health 1 255
 effect give @s saturation 1 255
-teleport @s 0 100 0
+teleport @s -263 104 -256
 
 tellraw @a [{"text": "", "color": "gold"},{"selector": "@s", "color": "red", "bold": true}, {"text": " has taken the ferry to Daegl!"}]
 tellraw @s [{"text": "Welcome to Daegl!", "color": "gold"}]
 
-playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1
+execute at @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1
+
+advancement revoke @s only daegl:events/press_ferry_button
