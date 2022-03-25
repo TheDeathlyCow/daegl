@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "daegl:load"
+        "daegl:load",
+        "tnsrandom:load"
     ]
 }

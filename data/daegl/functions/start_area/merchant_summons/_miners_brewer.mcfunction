@@ -1,0 +1,3 @@
+# execute by player
+
+summon villager ~ ~ ~ {Invulnerable:1b,Tags:["daegl_merchant","brewer_merchant"],CustomName:'{"text":"Master Brewer","color":"gold"}',VillagerData:{level:99,profession:"minecraft:cleric"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:iron_block",Count:64b},buyB:{id:"minecraft:iron_block",Count:64b},sell:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Miner\'s Brew","color":"gold","italic":false}'},CustomPotionEffects:[{Id:3b,Amplifier:7b,Duration:2400}],CustomPotionColor:16759119}}}]}}
