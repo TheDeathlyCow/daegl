@@ -1,5 +1,5 @@
-scoreboard objectives add tnsrandrom dummy 
-scoreboard players set modulus tnsrandrom 2303
-scoreboard players set multiplier tnsrandrom 1646
-scoreboard players set adder tnsrandrom 100
-scoreboard players set current tnsrandrom 3
+scoreboard objectives add tnsrandom dummy 
+scoreboard players set modulus tnsrandom 2303
+scoreboard players set multiplier tnsrandom 1646
+scoreboard players set adder tnsrandom 100
+scoreboard players set current tnsrandom 3

@@ -1,3 +1,3 @@
-scoreboard players operation current tnsrandrom *= multiplier tnsrandrom
-scoreboard players operation current tnsrandrom += adder tnsrandrom
-scoreboard players operation current tnsrandrom %= modulus tnsrandrom
+scoreboard players operation current tnsrandom *= multiplier tnsrandom
+scoreboard players operation current tnsrandom += adder tnsrandom
+scoreboard players operation current tnsrandom %= modulus tnsrandom
