@@ -1,0 +1,34 @@
+{
+    "parent": "daegl:events/merchant_dialogue/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": -259,
+                                "max": -258
+                            },
+                            "y": {
+                                "min": 103,
+                                "max": 104
+                            },
+                            "z": {
+                                "min": -256,
+                                "max": -255
+                            }
+
+                        },
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+                
+            }
+        }
+    },
+    "rewards": {
+        "function": "daegl:start_area/merchant_dialogue/fidelan_merchant"
+    }
+}

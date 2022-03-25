@@ -1,0 +1,6 @@
+{
+    "replace": true,
+    "values": [
+        "daegl:start_area/merchant_dialogue/player_tick"
+    ]
+}
