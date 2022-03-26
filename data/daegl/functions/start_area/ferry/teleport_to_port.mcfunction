@@ -10,4 +10,4 @@ tellraw @s [{"text": "Welcome to Daegl!", "color": "gold"}]
 
 execute at @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1
 
-advancement revoke @s only daegl:events/press_ferry_button
+advancement revoke @s only daegl:events/enter_ferry_at_spawn
