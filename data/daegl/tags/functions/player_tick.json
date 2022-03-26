@@ -1,6 +1,7 @@
 {
     "replace": true,
     "values": [
-        "daegl:start_area/merchant_dialogue/player_tick"
+        "daegl:start_area/merchant_dialogue/player_tick",
+        "daegl:dungeon/dungeon_io/player_tick"
     ]
 }

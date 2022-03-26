@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:stone",
+        "minecraft:deepslate",
+        "minecraft:andesite",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:gravel",
+        "#daegl:ores"
+    ]
+}
