@@ -1,6 +1,9 @@
 # as all players, at self
 
-execute if entity @s[tag=in_daegl] run function daegl:dungeon/io/_private/player_tick_checked
+execute store success score $in_daegl daegl_temp if entity @s[tag=in_daegl]
 
-# temp coords
-execute in minecraft:overworld positioned -237 101 -262 align xyz as @a[dx=4,dy=4,dz=0,tag=!in_daegl] at @s run function daegl:dungeon/io/enter
+execute if score $in_daegl daegl_temp matches 0 run function daegl:dungeon/io/_private/player_tick_not_in_daegl
+execute if score $in_daegl daegl_temp matches 1 run function daegl:dungeon/io/_private/player_tick_in_daegl
+
+scoreboard players reset $in_daegl daegl_temp
+
