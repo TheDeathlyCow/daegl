@@ -4,7 +4,7 @@ clear @s
 
 function #rx.playerdb:api/v2/get/self
 
-function daegl:dungeon/io/inventory/_private/restore/offhand
+function daegl:dungeon/io/inventory/_private/restore/weapon
 function daegl:dungeon/io/inventory/_private/restore/armor
 function daegl:dungeon/io/inventory/_private/restore/hotbar
 function daegl:dungeon/io/inventory/_private/restore/inventory
