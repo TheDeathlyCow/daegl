@@ -12,6 +12,6 @@ scoreboard players set MERCHANT_DIALOGUE_COOLDOWN daegl_constants 300
 
 
 kill @e[tag=daegl_inventory_marker]
-summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"]}
+summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}
 
 schedule function daegl:tick 1t replace
