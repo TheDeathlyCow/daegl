@@ -1,5 +1,4 @@
 {
-    "replace": false,
     "values": [
         "daegl:tick",
         "daegl:dungeon/io/tick"

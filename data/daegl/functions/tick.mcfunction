@@ -1,3 +1,5 @@
 # as server, at worldspawn
 
-execute as @a at @s run function #daegl:player_tick
+schedule function #daegl:tick 1t replace
+
+execute as @a at @s run function #daegl:player_tick 
