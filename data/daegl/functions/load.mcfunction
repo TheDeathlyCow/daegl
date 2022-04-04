@@ -11,4 +11,7 @@ scoreboard players set MINERS_BREWER_DIAGLOGUE_COUNT daegl_constants 2
 scoreboard players set MERCHANT_DIALOGUE_COOLDOWN daegl_constants 300
 
 
+kill @e[tag=daegl_inventory_marker]
+summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"]}
+
 schedule function daegl:tick 1t replace

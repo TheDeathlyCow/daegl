@@ -6,3 +6,5 @@ teleport @s ~ ~ ~-5
 
 clear @s netherite_pickaxe{DaeglItem:1b}
 clear @s torch{DaeglItem:1b}
+
+function daegl:dungeon/io/inventory/restore
