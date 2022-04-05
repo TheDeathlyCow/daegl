@@ -1,0 +1,22 @@
+{
+    "parent": "daegl:dungeon_levels/enter_dungeon",
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_copper_ore"
+        },
+        "title": {
+            "text": "Copper Caves",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Complete the Copper Caves",
+            "color": "gray"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

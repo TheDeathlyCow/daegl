@@ -1,0 +1,22 @@
+{
+    "parent": "daegl:dungeon_levels/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {
+            "text": "Into the Mines",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Enter the Mines of Daegl",
+            "color": "gray"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

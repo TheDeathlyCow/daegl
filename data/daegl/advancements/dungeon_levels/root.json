@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": {
+            "text": "The Mines of Daegl",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Welcome to the Mines of Daegl event!",
+            "color": "gray"
+        },
+        "background": "minecraft:textures/block/cobbled_deepslate.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
