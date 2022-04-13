@@ -1,4 +1,4 @@
-# as server, at worldspawn
+## as server, at worldspawn
 
 schedule function #daegl:tick 1t replace
 

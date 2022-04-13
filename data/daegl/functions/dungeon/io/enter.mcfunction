@@ -8,3 +8,7 @@ function daegl:dungeon/io/inventory/save
 function daegl:dungeon/io/give_start_kit
 
 teleport @s ~ ~ ~5
+
+function daegl:dungeon/count_players
+
+execute if score current daegl.game_stage = INACTIVE daegl.game_stage run schedule function daegl:dungeon/levels/1/prep/start 1t replace
