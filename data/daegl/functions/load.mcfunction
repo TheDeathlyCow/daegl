@@ -15,6 +15,8 @@ scoreboard objectives add daegl.levels_completed dummy
 scoreboard objectives add daegl.game_variables dummy
 scoreboard objectives add daegl.xp_backup dummy
 
+# triggers - if I had any
+
 # reset all constant scoreboard players - help enforce constantness
 scoreboard players reset * daegl.constants
 
@@ -33,6 +35,10 @@ scoreboard players set GOLD_AMOUNT daegl.constants 100
 scoreboard players set #0 daegl.constants 0
 scoreboard players set #1 daegl.constants 1
 
+# io constants
+scoreboard players set ENTER_DUNGEON_WINDOW daegl.constants 1200
+scoreboard players set MAX_PLAYERS daegl.constants 5
+
 # game stages
 scoreboard players set INACTIVE daegl.game_stage 0
 scoreboard players set PREPARE_COPPER daegl.game_stage 1
@@ -41,6 +47,8 @@ scoreboard players set PREPARE_IRON daegl.game_stage 3
 scoreboard players set IRON daegl.game_stage 4
 scoreboard players set PREPARE_GOLD daegl.game_stage 5
 scoreboard players set GOLD daegl.game_stage 6
+# initialize current game stage to 0
+scoreboard players add current daegl.game_stage 0
 
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}

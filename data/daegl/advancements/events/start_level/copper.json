@@ -1,0 +1,34 @@
+{
+    "parent": "daegl:events/start_level/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": -223,
+                            "max": -222
+                        },
+                        "y": {
+                            "min": 103,
+                            "max": 104
+                        },
+                        "z": {
+                            "min": -260,
+                            "max": -259
+                        }
+                    },
+                    "block": {
+                        "blocks": [
+                            "minecraft:lever"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "daegl:dungeon/levels/1/play/start"
+    }
+}

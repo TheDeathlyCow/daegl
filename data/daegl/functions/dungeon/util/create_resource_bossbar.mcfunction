@@ -3,6 +3,8 @@
 ## from the score of `daegl.dungeon.util.create_resource_bossbar#max daegl.function_params`. Display should
 ## be configured per level, and this will set the display to some random default values.
 ## Will also remove any old bossbars to prevent any unwanted carry-over data.
+##
+## Params: max - The max value of the bossbar 
 
 bossbar remove daegl:resource_bossbar
 bossbar add daegl:resource_bossbar [{"text": "Resource Bossbar"}]
