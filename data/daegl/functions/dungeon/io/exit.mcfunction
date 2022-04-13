@@ -5,3 +5,5 @@ execute as @a[tag=in_daegl] at @s run function daegl:dungeon/io/exit_player
 bossbar remove daegl:resource_bossbar
 function daegl:dungeon/levels/clear_tickers
 scoreboard players operation current daegl.game_stage = INACTIVE daegl.game_stage
+
+kill @e[tag=daegl_monster]
