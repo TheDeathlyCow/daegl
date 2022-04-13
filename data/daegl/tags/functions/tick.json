@@ -1,6 +1,5 @@
 {
     "values": [
-        "daegl:tick",
-        "daegl:dungeon/io/tick"
+        "daegl:tick"
     ]
 }
