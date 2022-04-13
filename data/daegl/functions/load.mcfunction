@@ -1,13 +1,19 @@
 ## as server, at worldspawn
 
 # initialize objectives
-scoreboard objectives add daegl.constants dummy
+# Constants should ONLY be modified in this function. 
+scoreboard objectives add daegl.constants dummy 
 scoreboard objectives add daegl.game_stage dummy
+# Any function that sets a temp variable must also reset that variable before it finishes
 scoreboard objectives add daegl.temp dummy
+# Function params should be the dotted name of the function followed by a #, and then the param name. E.g. daegl.example.function#param1 
+# The function they are a param for should always reset the variable at the end of execution, unless they are a loop index
+scoreboard objectives add daegl.function_params dummy
 scoreboard objectives add daegl.merchant_dialogue_cooldown dummy
 scoreboard objectives add daegl.logout_count minecraft.custom:minecraft.leave_game
 scoreboard objectives add daegl.levels_completed dummy
 scoreboard objectives add daegl.game_variables dummy
+scoreboard objectives add daegl.xp_backup dummy
 
 # reset all constant scoreboard players - help enforce constantness
 scoreboard players reset * daegl.constants
