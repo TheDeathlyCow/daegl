@@ -4,4 +4,4 @@ summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:structure_void",Count:1b},Tags
 
 execute as @e[distance=..5,tag=daegl.smelter_out,sort=nearest,limit=1] at @s run function daegl:dungeon/smelter/output/_private/modify_item
 
-data remove storage daegl:smelter output_buffer[0]
+data remove storage daegl:smelter output_buffer[-1]

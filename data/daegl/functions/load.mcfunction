@@ -31,12 +31,14 @@ scoreboard players set COPPER_AMOUNT daegl.constants 100
 scoreboard players set IRON_AMOUNT daegl.constants 100
 scoreboard players set GOLD_AMOUNT daegl.constants 100
 
-# literal int constants - makes it easier to read comparisons
+# literal constants - makes it easier to read comparisons
 scoreboard players set #false daegl.constants 0
 scoreboard players set #true daegl.constants 1
 scoreboard players set #0 daegl.constants 0
 scoreboard players set #1 daegl.constants 1
 scoreboard players set #20 daegl.constants 20
+scoreboard players set #MIN_VALUE daegl.constants -2147483648
+scoreboard players set #MAX_VALUE daegl.constants 2147483647
 
 # io constants
 scoreboard players set ENTER_DUNGEON_WINDOW daegl.constants 600
