@@ -13,4 +13,7 @@ execute unless score daegl._command_block_useable.resource.move#is_correct_item_
 
 item replace block ~ ~ ~ container.0 with minecraft:air
 
+scoreboard players reset daegl._command_block_useable.resource.move#is_raw_iron daegl.temp
+scoreboard players reset daegl._command_block_useable.resource.move#is_raw_gold daegl.temp
+scoreboard players reset daegl._command_block_useable.resource.move#is_raw_copper daegl.temp
 scoreboard players reset daegl._command_block_useable.resource.move#is_correct_item_type daegl.temp
