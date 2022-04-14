@@ -1,7 +1,3 @@
-# as server, at smelter output container
+# asat any
 
-summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:structure_void",Count:1b},Tags:["daegl.smelter_out"]}
-
-execute as @e[distance=..5,tag=daegl.smelter_out,sort=nearest,limit=1] at @s run function daegl:dungeon/smelter/output/_private/modify_item
-
-data remove storage daegl:smelter output_buffer[-1]
+execute positioned -247 103 -257 if data storage daegl:smelter to_output run function daegl:dungeon/smelter/output/_private/pop_at_container

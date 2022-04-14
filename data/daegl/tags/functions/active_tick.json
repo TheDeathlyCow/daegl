@@ -1,6 +1,5 @@
 {
     "values": [
-        "daegl:dungeon/io/tick",
-        "daegl:dungeon/smelter/tick"
+        "daegl:dungeon/io/tick"
     ]
 }
