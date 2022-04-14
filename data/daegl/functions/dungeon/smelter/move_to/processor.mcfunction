@@ -3,3 +3,5 @@
 
 item replace block -242 102 -257 container.0 from block ~ ~ ~ container.0 
 item replace block ~ ~ ~ container.0 with minecraft:air
+
+execute positioned -242 102 -257 run function daegl:dungeon/smelter/processor/add

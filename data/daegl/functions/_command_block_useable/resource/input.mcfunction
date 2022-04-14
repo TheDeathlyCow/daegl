@@ -1,5 +1,9 @@
 
 
+# daegl resource tag map:
+# 0: raw copper
+# 1: raw iron
+# 2: raw gold 
 execute if score current daegl.game_stage = COPPER daegl.game_stage store success score daegl._command_block_useable.resource.move#is_raw_copper daegl.temp if data block ~ ~ ~ Items[{Slot:0b, tag:{DaeglResource:0b}}]
 execute if score current daegl.game_stage = IRON daegl.game_stage store success score daegl._command_block_useable.resource.move#is_raw_iron daegl.temp if data block ~ ~ ~ Items[{Slot:0b, tag:{DaeglResource:1b}}]
 execute if score current daegl.game_stage = GOLD daegl.game_stage store success score daegl._command_block_useable.resource.move#is_raw_gold daegl.temp if data block ~ ~ ~ Items[{Slot:0b, tag:{DaeglResource:2b}}]
