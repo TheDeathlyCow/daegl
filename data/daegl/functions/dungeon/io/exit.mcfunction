@@ -7,4 +7,4 @@ function daegl:dungeon/levels/clear_tickers
 scoreboard players operation current daegl.game_stage = INACTIVE daegl.game_stage
 scoreboard players reset time_first_player_entered daegl.game_variables
 
-function daegl:dunge/reset/reset
+function daegl:dungeon/reset/reset
