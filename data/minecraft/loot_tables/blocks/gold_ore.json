@@ -36,19 +36,8 @@
                                     "tag": "{DaeglGold:1b}",
                                     "conditions": [
                                         {
-                                            "condition": "minecraft:entity_properties",
-                                            "entity": "this",
-                                            "predicate": {
-                                                "player": {
-                                                    "gamemode": "adventure"
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "condition": "minecraft:match_tool",
-                                            "predicate": {
-                                                "nbt": "{DaeglPickaxe:1b}"
-                                            }
+                                            "condition": "minecraft:reference",
+                                            "name": "daegl:in_daegl"
                                         }
                                     ]
                                 },

@@ -9,7 +9,6 @@ tag @s add in_daegl
 function daegl:dungeon/io/inventory/save
 function daegl:dungeon/io/give_start_kit
 
-advancement grant @s only daegl:events/start_level/root
 advancement revoke @s from daegl:events/start_level/root
 
 teleport @s ~ ~ ~5
