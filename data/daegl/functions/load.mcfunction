@@ -15,7 +15,9 @@ scoreboard objectives add daegl.levels_completed dummy
 scoreboard objectives add daegl.game_variables dummy
 scoreboard objectives add daegl.xp_backup dummy
 
-# triggers - if I had any
+# upgrade scores
+scoreboard objectives add daegl.upgrades.fortune dummy
+scoreboard objectives add daegl.upgrades.efficiency dummy
 
 # reset all constant scoreboard players - help enforce constantness
 scoreboard players reset * daegl.constants

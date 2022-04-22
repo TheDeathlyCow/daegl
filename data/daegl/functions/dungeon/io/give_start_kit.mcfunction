@@ -4,5 +4,13 @@ effect clear @s
 effect give @s instant_health 1 255
 effect give @s saturation 1 255
 
-give @s netherite_pickaxe{display:{Name:'{"text":"Miner\'s Pickaxe","italic":false}'},CanDestroy:["#daegl:ores"],Unbreakable:1b,DaeglPickaxe:1b,HideFlags:28} 1
-#give @s torch{CanPlaceOn:["#daegl:torch_placeable_on"],HideFlags:24,DaeglItem:1b} 128
+scoreboard players add @s daegl.upgrades.fortune 0
+
+execute store result score daegl.dungeon.io._private.create_pickaxe#fortune_level daegl.function_params run scoreboard players get @s daegl.upgrades.fortune
+execute store result score daegl.dungeon.io._private.create_pickaxe#efficiency_level daegl.function_params run scoreboard players get @s daegl.upgrades.efficiency
+execute as @e[tag=daegl_inventory_marker,limit=1] run function daegl:dungeon/io/_private/create_pickaxe
+
+summon item ~ ~3 ~ {Item:{id:"minecraft:stone",Count:1b},Tags:["daegl_pickaxe_item"]}
+data modify entity @e[type=item,tag=daegl_pickaxe_item,dx=0,dy=3,dz=0,sort=nearest,limit=1] Item set from entity @e[tag=daegl_inventory_marker,limit=1] ArmorItems[3]
+item replace entity @e[tag=daegl_inventory_marker,limit=1] armor.head with air
+
