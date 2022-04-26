@@ -6,3 +6,5 @@ effect give @s saturation 1 255
 
 function daegl:dungeon/io/give_miner_pickaxe
 
+function daegl:dungeon/io/give_axe
+

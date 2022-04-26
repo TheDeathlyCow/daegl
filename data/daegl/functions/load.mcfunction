@@ -18,6 +18,8 @@ scoreboard objectives add daegl.xp_backup dummy
 scoreboard objectives add daegl.upgrades.fortune dummy
 scoreboard objectives add daegl.upgrades.efficiency dummy
 scoreboard objectives add daegl.upgrades.pickaxe_tier dummy
+scoreboard objectives add daegl.upgrades.axe dummy
+
 # tiers: 0 = iron, 1 = diamond
 
 # time player last finished dungeon

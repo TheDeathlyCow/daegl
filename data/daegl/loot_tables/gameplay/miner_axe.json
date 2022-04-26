@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "Clears stuff"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Miner's Axe",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{DaeglPickaxe:1b,CanDestroy:[\"minecraft:oak_planks\", \"minecraft:oak_slab\", \"minecraft:oak_stairs\"],HideFlags:28}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

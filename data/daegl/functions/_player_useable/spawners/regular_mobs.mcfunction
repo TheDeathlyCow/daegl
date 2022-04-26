@@ -1,0 +1,5 @@
+# as player at self
+# sets a spawner for 'regular' mobs, that is zombies, skeletons, and creepers. Spiders 
+# get their own spawner
+
+setblock ~ ~ ~ spawner{SpawnCount:3,MinSpawnDelay:60,MaxSpawnDelay:200,SpawnData:{entity:{id:"minecraft:zombie"},custom_spawn_rules:{sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}}},SpawnPotentials:[{weight:3,data:{custom_spawn_rules:{sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}},entity:{id:"minecraft:zombie"}}},{weight:2,data:{custom_spawn_rules:{sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}},entity:{id:"minecraft:skeleton"}}},{weight:1,data:{custom_spawn_rules:{sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}},entity:{id:"minecraft:creeper"}}}]} replace
