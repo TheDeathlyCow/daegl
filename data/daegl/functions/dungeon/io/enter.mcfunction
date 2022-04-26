@@ -5,7 +5,6 @@ tellraw @s [{"text": "Welcome to the ","color": "red"},{"text": "Mines of Daegl"
 gamemode adventure @s 
 
 scoreboard players reset @s daegl.logout_count
-scoreboard players set @s daegl.levels_completed 0
 tag @s add in_daegl
 
 function daegl:dungeon/io/inventory/save

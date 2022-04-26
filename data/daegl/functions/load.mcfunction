@@ -11,7 +11,6 @@ scoreboard objectives add daegl.temp dummy
 scoreboard objectives add daegl.function_params dummy
 scoreboard objectives add daegl.merchant_dialogue_cooldown dummy
 scoreboard objectives add daegl.logout_count minecraft.custom:minecraft.leave_game
-#scoreboard objectives add daegl.levels_completed dummy
 scoreboard objectives add daegl.game_variables dummy
 scoreboard objectives add daegl.xp_backup dummy
 
