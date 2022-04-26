@@ -4,8 +4,8 @@
 #         daegl.dungeon.io._private.create_pickaxe#pickaxe_tier - the level of material tier to apply to the pickaxe (iron=0, diamond=1)
 # desc: places a pickaxe in the head slot and modifies it with enchantments according to parameters
 
-execute if score daegl.dungeon.io._private.create_pickaxe#pickaxe_tier daegl.function_params matches 0 run item replace entity @e[tag=daegl_inventory_marker,limit=1] armor.head with iron_pickaxe
-execute if score daegl.dungeon.io._private.create_pickaxe#pickaxe_tier daegl.function_params matches 1 run item replace entity @e[tag=daegl_inventory_marker,limit=1] armor.head with diamond_pickaxe
+execute if score daegl.dungeon.io._private.create_pickaxe#pickaxe_tier daegl.function_params matches 0 run item replace entity @e[tag=daegl_inventory_marker,limit=1] armor.head with iron_pickaxe{CanDestroy:["#daegl:ores"]}
+execute if score daegl.dungeon.io._private.create_pickaxe#pickaxe_tier daegl.function_params matches 1 run item replace entity @e[tag=daegl_inventory_marker,limit=1] armor.head with diamond_pickaxe{CanDestroy:["minecraft:obsidian","#daegl:ores"]}
 
 item modify entity @s armor.head daegl:set_pickaxe_nbt
 
