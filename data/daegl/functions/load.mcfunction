@@ -23,6 +23,8 @@ scoreboard objectives add daegl.upgrades.pickaxe_tier dummy
 
 # time player last finished dungeon
 scoreboard objectives add daegl.time_finished dummy
+# track how many runs each player has completed 
+scoreboard objectives add daegl.runs dummy
 
 # reset all constant scoreboard players - help enforce constantness
 scoreboard players reset * daegl.constants
