@@ -1,0 +1,24 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "text": "Miner's Pickaxe",
+            "italic": false
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": "Diggy diggy hole"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CanDestroy:[\"#daegl:ores\"],Unbreakable:1b,DaeglPickaxe:1b,HideFlags:28}"
+    }
+]

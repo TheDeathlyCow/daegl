@@ -6,7 +6,8 @@ tag @s remove in_daegl
 
 teleport @s ~ ~ ~-5
 
-execute if score @s daegl.levels_completed matches 0 run function daegl:dungeon/io/inventory/restore
+execute if score current daegl.game_stage < PREPARE_IRON daegl.game_stage run function daegl:dungeon/io/inventory/restore
+execute if score current daegl.game_stage >= PREPARE_IRON daegl.game_stage store result score @s daegl.time_finished run time query gametime
 
 tellraw @s [{"text": "You have left the ","color": "red"},{"text": "Mines of Daegl", "color": "gold"},"!"]
 

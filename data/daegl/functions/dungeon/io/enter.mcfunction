@@ -10,7 +10,6 @@ tag @s add in_daegl
 
 function daegl:dungeon/io/inventory/save
 
-
 advancement revoke @s from daegl:events/start_level/root
 
 teleport @s ~ ~ ~5

@@ -11,13 +11,18 @@ scoreboard objectives add daegl.temp dummy
 scoreboard objectives add daegl.function_params dummy
 scoreboard objectives add daegl.merchant_dialogue_cooldown dummy
 scoreboard objectives add daegl.logout_count minecraft.custom:minecraft.leave_game
-scoreboard objectives add daegl.levels_completed dummy
+#scoreboard objectives add daegl.levels_completed dummy
 scoreboard objectives add daegl.game_variables dummy
 scoreboard objectives add daegl.xp_backup dummy
 
 # upgrade scores
 scoreboard objectives add daegl.upgrades.fortune dummy
 scoreboard objectives add daegl.upgrades.efficiency dummy
+scoreboard objectives add daegl.upgrades.pickaxe_tier dummy
+# tiers: 0 = iron, 1 = diamond
+
+# time player last finished dungeon
+scoreboard objectives add daegl.time_finished dummy
 
 # reset all constant scoreboard players - help enforce constantness
 scoreboard players reset * daegl.constants
@@ -45,6 +50,10 @@ scoreboard players set #MAX_VALUE daegl.constants 2147483647
 # io constants
 scoreboard players set ENTER_DUNGEON_WINDOW daegl.constants 600
 scoreboard players set MAX_PLAYERS daegl.constants 5
+# for production - 12 hours between runs
+scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 864000
+# for testing - 30 seconds between runs
+scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 600
 
 # game stages
 scoreboard players set INACTIVE daegl.game_stage 0
@@ -56,6 +65,7 @@ scoreboard players set PREPARE_GOLD daegl.game_stage 5
 scoreboard players set GOLD daegl.game_stage 6
 # initialize current game stage to 0
 scoreboard players add current daegl.game_stage 0
+
 
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}
