@@ -12,7 +12,8 @@
         "entity": "this",
         "lore": [
             {
-                "text": "Diggy diggy hole"
+                "text": "Diggy diggy hole",
+                "color": "dark_gray"
             }
         ],
         "replace": true
