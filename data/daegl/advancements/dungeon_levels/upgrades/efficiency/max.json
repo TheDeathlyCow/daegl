@@ -1,0 +1,28 @@
+{
+    "parent": "daegl:dungeon_levels/upgrades/efficiency/1",
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": {
+            "text": "Maximum Speed"
+        },
+        "description": {
+            "text": "Buy the maximum level of the Efficiency upgrade from the Pickaxe Upgrades shop"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "buy_book": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "buy_book"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

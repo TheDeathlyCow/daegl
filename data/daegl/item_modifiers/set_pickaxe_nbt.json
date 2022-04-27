@@ -20,6 +20,6 @@
     },
     {
         "function": "minecraft:set_nbt",
-        "tag": "{Unbreakable:1b,DaeglPickaxe:1b,HideFlags:28}"
+        "tag": "{Unbreakable:1b,DaeglPickaxe:1b,DaeglItem:1b,HideFlags:28}"
     }
 ]

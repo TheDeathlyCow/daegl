@@ -1,0 +1,27 @@
+{
+    "parent": "daegl:dungeon_levels/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {
+            "text": "Slightly Less Bad"
+        },
+        "description": {
+            "text": "Buy the first level of the Efficiency upgrade from the Pickaxe Upgrades shop"
+        }
+    },
+    "criteria": {
+        "buy_book": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "buy_book"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

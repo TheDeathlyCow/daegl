@@ -19,8 +19,12 @@ scoreboard objectives add daegl.upgrades.fortune dummy
 scoreboard objectives add daegl.upgrades.efficiency dummy
 scoreboard objectives add daegl.upgrades.pickaxe_tier dummy
 scoreboard objectives add daegl.upgrades.axe dummy
-
 # tiers: 0 = iron, 1 = diamond
+
+# scores for advancments
+scoreboard objectives add daegl.break_oak_planks minecraft.mined:oak_planks
+scoreboard objectives add daegl.break_oak_stairs minecraft.mined:oak_stairs
+scoreboard objectives add daegl.break_oak_slab minecraft.mined:oak_slab
 
 # time player last finished dungeon
 scoreboard objectives add daegl.time_finished dummy
@@ -40,6 +44,10 @@ scoreboard players set MERCHANT_DIALOGUE_COOLDOWN daegl.constants 300
 scoreboard players set COPPER_AMOUNT daegl.constants 100
 scoreboard players set IRON_AMOUNT daegl.constants 100
 scoreboard players set GOLD_AMOUNT daegl.constants 100
+
+# upgrades constants
+scoreboard players set MAX_FORTUNE_LEVEL daegl.constants 3
+scoreboard players set MAX_EFFICIENCY_LEVEL daegl.constants 5
 
 # literal constants - makes it easier to read comparisons
 scoreboard players set #false daegl.constants 0

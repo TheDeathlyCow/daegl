@@ -1,0 +1,25 @@
+{
+    "parent": "daegl:events/root",
+    "criteria": {
+        "buy_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:iron_axe"
+                    ],
+                    "nbt": "{DaeglAxe:1b}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "buy_axe"
+        ]
+    ],
+    "rewards": {
+        "experience": 50,
+        "function": "daegl:start_area/upgrades/axe"
+    }
+}

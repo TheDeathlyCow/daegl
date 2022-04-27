@@ -1,0 +1,27 @@
+{
+    "parent": "daegl:dungeon_levels/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "title": {
+            "text": "Fortunate Son"
+        },
+        "description": {
+            "text": "Buy the first level of the Fortune upgrade from the Pickaxe Upgrades shop"
+        }
+    },
+    "criteria": {
+        "buy_book": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "buy_book"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

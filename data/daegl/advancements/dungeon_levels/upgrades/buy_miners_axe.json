@@ -1,0 +1,27 @@
+{
+    "parent": "daegl:dungeon_levels/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {
+            "text": "Let Me Axe You a Question"
+        },
+        "description": {
+            "text": "Buy the Miner's Axe upgrade from the Pickaxe Upgrades shop"
+        }
+    },
+    "criteria": {
+        "buy_axe": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "buy_axe"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

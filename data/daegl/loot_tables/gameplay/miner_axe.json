@@ -28,7 +28,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Unbreakable:1b,DaeglPickaxe:1b,CanDestroy:[\"minecraft:oak_planks\", \"minecraft:oak_slab\", \"minecraft:oak_stairs\"],HideFlags:28}"
+                            "tag": "{Unbreakable:1b,DaeglAxe:1b,DaeglItem:1b,CanDestroy:[\"minecraft:oak_planks\", \"minecraft:oak_slab\", \"minecraft:oak_stairs\"],HideFlags:28}"
                         }
                     ]
                 }

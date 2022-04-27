@@ -1,0 +1,25 @@
+{
+    "parent": "daegl:events/root",
+    "criteria": {
+        "buy_book": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_book"
+                    ],
+                    "nbt": "{FortuneUpgrade:1b}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "buy_book"
+        ]
+    ],
+    "rewards": {
+        "experience": 50,
+        "function": "daegl:start_area/upgrades/fortune"
+    }
+}
