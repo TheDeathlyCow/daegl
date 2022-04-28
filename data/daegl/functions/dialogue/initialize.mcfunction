@@ -4,7 +4,7 @@
 # The first line in the dialogue list will be the last one
 # shown to players.
 
-data modify storage daegl:dialogue name set value '{"text":"[Master of the Mines] ", "color": "gold"}'
+data modify storage daegl:dialogue name set value '{"text":"[Lord Ballin\' of Daegl] ", "color": "gold"}'
 data modify storage daegl:dialogue base_style set value '{"text":"","color": "yellow"}'
 
 
@@ -14,7 +14,7 @@ data modify storage daegl:dialogue enter.en_us set value []
 
 #data modify storage daegl:dialogue enter.en_us append value ""
 data modify storage daegl:dialogue enter.en_us append value "So whenever you're ready, just head on down into the copper caves. We'll be here to man the smelter for you."
-data modify storage daegl:dialogue enter.en_us append value "You will get to keep whatever you can find, we really just need you to clear out the caves."
+data modify storage daegl:dialogue enter.en_us append value "You can keep whatever you find, we really just need you to clear out the mines."
 data modify storage daegl:dialogue enter.en_us append value "All we need you to do is go into the caves, clear out the mobs, collect as much ore as you can, and bring it back up here to the smelter."
 data modify storage daegl:dialogue enter.en_us append value "By the time we got to the fourth level, the monsters had overwhelmed us and we were forced to retreat back to the surface and collapse the tunnels."
 data modify storage daegl:dialogue enter.en_us append value "However, we've only been able to get to the first three."
@@ -27,10 +27,20 @@ data modify storage daegl:dialogue enter.en_us append value "We've been eagerly 
 data modify storage daegl:dialogue enter.en_us append value "Hello adventurers, welcome to Daegl!"
 
 
-# Compete copper caves
+# Complete copper caves
 
 data modify storage daegl:dialogue complete.copper.en_us set value []
 
 #data modify storage daegl:dialogue complete.copper.en_us append value ""
 data modify storage daegl:dialogue complete.copper.en_us append value "You can finish smelting and put away any materials you wish to collect now. When you're ready, press the lever to clear the rubble blocking the iron mines."
-data modify storage daegl:dialogue complete.copper.en_us append value "Great job clearing those caves!"
+data modify storage daegl:dialogue complete.copper.en_us append value "Great job clearing out those caves!"
+
+
+# Compete iron mines
+
+data modify storage daegl:dialogue complete.iron.en_us set value []
+
+#data modify storage daegl:dialogue complete.iron.en_us append value ""
+data modify storage daegl:dialogue complete.iron.en_us append value "Anyway, once you're ready, press the lever clear the rubble blocking the golden tunnels."
+data modify storage daegl:dialogue complete.iron.en_us append value "Too bad we have to dig for iron and can't just make an iron farm, eh?"
+data modify storage daegl:dialogue complete.iron.en_us append value "Wow! Thanks for clearing out the iron mines, we really needed that!"
