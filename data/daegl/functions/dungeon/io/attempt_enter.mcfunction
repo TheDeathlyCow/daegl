@@ -17,7 +17,6 @@ scoreboard players add @s daegl.time_finished 0
 execute store result score daegl.dungeon.io.attempt_enter#time daegl.temp run time query gametime
 scoreboard players operation daegl.dungeon.io.attempt_enter#time daegl.temp -= @s daegl.time_finished
 execute store success score daegl.dungeon.io.attempt_enter#last_run_long_ago daegl.temp if score daegl.dungeon.io.attempt_enter#time daegl.temp >= MIN_TIME_BETWEEN_RUNS daegl.constants
-tellraw @a {"score": {"name":"daegl.dungeon.io.attempt_enter#time", "objective": "daegl.temp"}}
 execute if score @s daegl.time_finished matches 0 run scoreboard players set daegl.dungeon.io.attempt_enter#last_run_long_ago daegl.temp 1
 
 execute if score daegl.dungeon.io.attempt_enter#in_time daegl.temp = #false daegl.constants run function daegl:dungeon/io/_private/deny_reason/not_in_time

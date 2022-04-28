@@ -2,7 +2,6 @@
 function daegl:dungeon/levels/clear_tickers
 schedule function daegl:dungeon/levels/2/play/ticker 1t replace
 
-tellraw @a [{"text": "Start Iron Caves"}]
 scoreboard players operation current daegl.game_stage = IRON daegl.game_stage
 
 scoreboard players reset resource_count daegl.game_variables
