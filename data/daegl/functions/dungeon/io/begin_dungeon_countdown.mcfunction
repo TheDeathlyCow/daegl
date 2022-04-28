@@ -10,6 +10,3 @@ tellraw @a [{"text": "","color": "red"},{"text": "[!!] ", "color": "gold", "bold
 execute as @a at @s run playsound entity.wither.spawn neutral @s ~ ~ ~ 1 1.2
 
 scoreboard players reset seconds_to_enter daegl.temp
-
-function daegl:dialogue/initialize
-schedule function daegl:dialogue/speak/enter 5s

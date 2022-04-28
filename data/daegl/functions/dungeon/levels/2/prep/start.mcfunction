@@ -10,3 +10,5 @@ execute at @e[type=marker,tag=daegl_iron_lever,limit=1] run setblock ~ ~ ~ lever
 execute at @e[type=marker,tag=daegl_iron_lever,limit=1] run summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;12632256]}]}}}}
 
 advancement grant @a[tag=in_daegl] only daegl:dungeon_levels/complete_copper_caves
+
+schedule function daegl:dialogue/speak/complete/copper 5s
