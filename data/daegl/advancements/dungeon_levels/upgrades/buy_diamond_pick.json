@@ -1,0 +1,27 @@
+{
+    "parent": "daegl:dungeon_levels/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {
+            "text": "Need a Pickup?"
+        },
+        "description": {
+            "text": "Buy the Diamond Pickaxe upgrade from the Pickaxe Upgrades shop"
+        }
+    },
+    "criteria": {
+        "buy_pickaxe": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "buy_pickaxe"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

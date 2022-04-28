@@ -6,9 +6,9 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:iron_axe"
+                        "minecraft:diamond_pickaxe"
                     ],
-                    "nbt": "{DaeglAxe:1b}"
+                    "nbt": "{DiamondPickaxeUpgrade:1b}"
                 }
             }
         }
@@ -19,6 +19,6 @@
         ]
     ],
     "rewards": {
-        "function": "daegl:start_area/upgrades/axe"
+        "function": "daegl:start_area/upgrades/pickaxe"
     }
 }

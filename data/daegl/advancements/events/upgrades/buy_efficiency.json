@@ -19,7 +19,6 @@
         ]
     ],
     "rewards": {
-        "experience": 50,
         "function": "daegl:start_area/upgrades/efficiency"
     }
 }

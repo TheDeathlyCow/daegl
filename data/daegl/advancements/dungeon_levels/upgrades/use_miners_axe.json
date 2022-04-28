@@ -47,6 +47,20 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:iron_axe"
+                                    ],
+                                    "nbt": "{DaeglAxe:1b}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
