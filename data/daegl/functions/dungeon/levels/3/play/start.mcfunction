@@ -11,3 +11,5 @@ scoreboard players operation daegl.dungeon.util.create_resource_bossbar#max daeg
 function daegl:dungeon/util/create_resource_bossbar
 bossbar set daegl:resource_bossbar color yellow
 bossbar set daegl:resource_bossbar name [{"text": "Gold Ore Gathered", "color": "#FFD700", "bold": true}]
+
+function daegl:dialogue/speak/start/gold

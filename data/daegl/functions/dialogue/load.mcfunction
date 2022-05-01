@@ -4,8 +4,11 @@
 # The first line in the dialogue list will be the last one
 # shown to players.
 
-data modify storage daegl:dialogue name set value '{"text":"[Lord Ballin\' of Daegl] ", "color": "gold"}'
-data modify storage daegl:dialogue base_style set value '{"text":"","color": "yellow"}'
+data modify storage daegl:dialogue name.lord set value '{"text":"[Lord Ballin\' of Daegl] ", "color": "gold"}'
+data modify storage daegl:dialogue style.lord set value '{"text":"","color": "yellow"}'
+
+data modify storage daegl:dialogue name.boss set value '[{"text":"[","color":"dark_red"},{"text":"The Heart of the Mountain", "color": "dark_red", "bold":true}, {"text":"] "}]'
+data modify storage daegl:dialogue style.boss set value '{"text":"","color": "red"}'
 
 
 # On enter mine dialogue
@@ -44,3 +47,8 @@ data modify storage daegl:dialogue complete.iron.en_us set value []
 data modify storage daegl:dialogue complete.iron.en_us append value "Anyway, once you're ready, press the lever clear the rubble blocking the golden tunnels."
 data modify storage daegl:dialogue complete.iron.en_us append value "Too bad we have to dig for iron and can't just make an iron farm, eh?"
 data modify storage daegl:dialogue complete.iron.en_us append value "Wow! Thanks for clearing out the iron mines, we really needed that!"
+
+
+data modify storage daegl:dialogue start.gold.en_us set value []
+
+data modify storage daegl:dialogue start.gold.en_us append value "Hrmmm..."

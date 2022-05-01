@@ -1,6 +1,7 @@
 {
     "values": [
         "daegl:load",
-        "tnsrandom:load"
+        "tnsrandom:load",
+        "daegl:dialogue/load"
     ]
 }

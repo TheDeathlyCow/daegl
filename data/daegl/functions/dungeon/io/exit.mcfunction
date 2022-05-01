@@ -11,3 +11,5 @@ scoreboard players operation current daegl.game_stage = INACTIVE daegl.game_stag
 scoreboard players reset time_first_player_entered daegl.game_variables
 
 function daegl:dungeon/reset/reset
+
+schedule clear daegl:dialogue/speak/play_message/lord

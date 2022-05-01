@@ -1,9 +1,0 @@
-[
-    {
-        "function": "minecraft:set_enchantments",
-        "enchantments": {
-            "minecraft:efficiency": 1
-        },
-        "add": true
-    }
-]

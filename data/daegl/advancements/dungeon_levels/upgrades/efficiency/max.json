@@ -2,10 +2,10 @@
     "parent": "daegl:dungeon_levels/upgrades/efficiency/1",
     "display": {
         "icon": {
-            "item": "minecraft:deepslate"
+            "item": "minecraft:gold_block"
         },
         "title": {
-            "text": "Maximum Speed"
+            "text": "It Was Super Efficientive"
         },
         "description": {
             "text": "Buy the maximum level of the Efficiency upgrade from the Pickaxe Upgrades shop"

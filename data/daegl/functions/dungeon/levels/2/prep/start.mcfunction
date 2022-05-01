@@ -11,4 +11,4 @@ execute at @e[type=marker,tag=daegl_iron_lever,limit=1] run summon firework_rock
 
 advancement grant @a[tag=in_daegl] only daegl:dungeon_levels/complete_copper_caves
 
-schedule function daegl:dialogue/speak/complete/copper 5s
+function daegl:dialogue/speak/complete/copper

@@ -2,10 +2,10 @@
     "parent": "daegl:dungeon_levels/root",
     "display": {
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:gold_ingot"
         },
         "title": {
-            "text": "Slightly Less Bad"
+            "text": "Pay to Win"
         },
         "description": {
             "text": "Buy the first level of the Efficiency upgrade from the Pickaxe Upgrades shop"
