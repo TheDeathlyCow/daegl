@@ -39,7 +39,7 @@ data modify storage daegl:dialogue complete.copper.en_us append value "You can f
 data modify storage daegl:dialogue complete.copper.en_us append value "Great job clearing out those caves!"
 
 
-# Compete iron mines
+# Complete iron mines
 
 data modify storage daegl:dialogue complete.iron.en_us set value []
 
@@ -49,6 +49,17 @@ data modify storage daegl:dialogue complete.iron.en_us append value "Too bad we 
 data modify storage daegl:dialogue complete.iron.en_us append value "Wow! Thanks for clearing out the iron mines, we really needed that!"
 
 
-data modify storage daegl:dialogue start.gold.en_us set value []
+# Start golden tunnels
 
+data modify storage daegl:dialogue start.gold.en_us set value []
 data modify storage daegl:dialogue start.gold.en_us append value "Hrmmm..."
+
+
+# Complete golden tunnels
+
+data modify storage daegl:dialogue complete.gold.en_us set value []
+
+#data modify storage daegl:dialogue complete.iron.en_us append value ""
+data modify storage daegl:dialogue complete.gold.en_us append value "All thats left now is the crystal cavern. Pull the lever to clear the rubble blocking it whenever you're ready."
+data modify storage daegl:dialogue complete.gold.en_us append value "We thank you, adventurer, for your aid."
+data modify storage daegl:dialogue complete.gold.en_us append value "The great golden mines of Daegl have once again returned to their rightful Keepers!"
