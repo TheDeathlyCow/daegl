@@ -7,32 +7,38 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_axe",
-                    "functions": [
+                    "conditions": [
                         {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": "Clears stuff",
-                                    "color": "dark_gray"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "name": {
-                                "text": "Miner's Axe",
-                                "italic": false
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Unbreakable:1b,DaeglAxe:1b,DaeglItem:1b,CanDestroy:[\"minecraft:oak_planks\", \"minecraft:oak_slab\", \"minecraft:oak_stairs\"],HideFlags:28}"
+                            "condition": "minecraft:reference",
+                            "name": "daegl:has_upgrade/miners_axe"
                         }
                     ]
                 }
             ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+                {
+                    "text": "Clears stuff",
+                    "color": "dark_gray"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+                "text": "Miner's Axe",
+                "italic": false
+            }
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{Unbreakable:1b,DaeglAxe:1b,DaeglItem:1b,CanDestroy:[\"minecraft:oak_planks\", \"minecraft:oak_slab\", \"minecraft:oak_stairs\"],HideFlags:28}"
         }
     ]
 }

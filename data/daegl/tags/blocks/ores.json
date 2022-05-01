@@ -4,6 +4,9 @@
         "#minecraft:iron_ores",
         "#minecraft:copper_ores",
         "#minecraft:gold_ores",
-        "#minecraft:diamond_ores"
+        "#minecraft:diamond_ores",
+        "#minecraft:emerald_ores",
+        "#minecraft:redstone_ores",
+        "minecraft:nether_quartz_ore"
     ]
 }
