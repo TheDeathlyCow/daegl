@@ -1,6 +1,6 @@
 # asat player to reset upgrades
 
-scoreboard players set @s daegl.upgrades.axe 0
-scoreboard players set @s daegl.upgrades.fortune 0
-scoreboard players set @s daegl.upgrades.efficiency 0
-scoreboard players set @s daegl.upgrades.pickaxe_tier 0
+scoreboard players reset @s daegl.upgrades.axe
+scoreboard players reset @s daegl.upgrades.fortune
+scoreboard players reset @s daegl.upgrades.efficiency
+scoreboard players reset @s daegl.upgrades.pickaxe_tier
