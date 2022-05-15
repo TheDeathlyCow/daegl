@@ -1,4 +1,5 @@
 {
+    "parent": "daegl:events/root",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"

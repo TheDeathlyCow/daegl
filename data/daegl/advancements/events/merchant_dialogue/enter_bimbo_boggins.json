@@ -8,16 +8,16 @@
                     "location": {
                         "position": {
                             "x": {
-                                "min": -259,
-                                "max": -258
+                                "min": 6057,
+                                "max": 6058
                             },
                             "y": {
-                                "min": 103,
-                                "max": 104
+                                "min": 70,
+                                "max": 71
                             },
                             "z": {
-                                "min": -256,
-                                "max": -255
+                                "min": -4101,
+                                "max": -4100
                             }
                         },
                         "dimension": "minecraft:overworld"

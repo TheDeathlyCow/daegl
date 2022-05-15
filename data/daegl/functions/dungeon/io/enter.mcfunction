@@ -12,7 +12,7 @@ function daegl:dungeon/io/inventory/save
 advancement revoke @s from daegl:events/start_level/root
 advancement grant @s only daegl:dungeon_levels/enter_dungeon
 
-teleport @s ~ ~ ~5
+teleport @s ~-10 ~ ~
 
 execute at @s run function daegl:dungeon/io/give_start_kit
 

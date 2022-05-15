@@ -44,6 +44,7 @@ def generate_functions(name: str, slots: SlotIterator, directory: str):
         for slot in slots.get_slots():
         
             template = [
+                "data remove storage daegl:inventory temp_restore",        
                 f"data modify storage daegl:inventory temp_restore set from storage rx.playerdb:io player.data.daegl.restore.inventory[{slot.get_nbt_str()}]",
                 "execute if data storage daegl:inventory temp_restore as @e[tag=daegl_inventory_marker,limit=1] run function daegl:dungeon/io/inventory/_private/set_armor_stand_feet",
                 f"execute if data storage daegl:inventory temp_restore run item replace entity @s {slot.get_slot_str()} from entity @e[tag=daegl_inventory_marker,limit=1] armor.feet\n"

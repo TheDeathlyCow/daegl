@@ -8,16 +8,16 @@
                     "location": {
                         "position": {
                             "x": {
-                                "min": -259,
-                                "max": -258
+                                "min": 6028,
+                                "max": 6029
                             },
                             "y": {
-                                "min": 103,
-                                "max": 104
+                                "min": 72,
+                                "max": 73
                             },
                             "z": {
-                                "min": -256,
-                                "max": -255
+                                "min": -4103,
+                                "max": -4102
                             }
                         },
                         "dimension": "minecraft:overworld"
@@ -27,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "daegl:start_area/merchant_dialogue/miners_brewer"
+        "function": "daegl:start_area/merchant_dialogue/upgrades"
     }
 }

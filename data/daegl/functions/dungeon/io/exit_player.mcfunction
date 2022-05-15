@@ -4,7 +4,7 @@
 scoreboard players reset @s daegl.logout_count
 tag @s remove in_daegl
 
-teleport @s ~ ~ ~-5
+teleport @s ~10 ~ ~
 
 execute if score current daegl.game_stage < PREPARE_IRON daegl.game_stage run function daegl:dungeon/io/inventory/restore
 execute if score current daegl.game_stage >= PREPARE_IRON daegl.game_stage store result score @s daegl.time_finished run time query gametime
