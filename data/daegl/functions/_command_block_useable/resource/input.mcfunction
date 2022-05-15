@@ -12,7 +12,10 @@ scoreboard players operation daegl._command_block_useable.resource.move#is_corre
 scoreboard players operation daegl._command_block_useable.resource.move#is_correct_item_type daegl.temp += daegl._command_block_useable.resource.move#is_raw_iron daegl.temp
 scoreboard players operation daegl._command_block_useable.resource.move#is_correct_item_type daegl.temp += daegl._command_block_useable.resource.move#is_raw_gold daegl.temp
 
+# process if item is smeltable
 execute unless score daegl._command_block_useable.resource.move#is_correct_item_type daegl.temp = #false daegl.constants run function daegl:dungeon/smelter/move_to/processor
+
+# return unsmeltable item
 execute if score daegl._command_block_useable.resource.move#is_correct_item_type daegl.temp = #false daegl.constants run function daegl:dungeon/smelter/move_to/output
 
 scoreboard players reset daegl._command_block_useable.resource.move#is_raw_iron daegl.temp

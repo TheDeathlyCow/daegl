@@ -1,33 +1,45 @@
 {
     "parent": "daegl:events/start_level/root",
     "criteria": {
-        "requirement": {
-            "trigger": "minecraft:item_used_on_block",
+        "cross_barrier": {
+            "trigger": "minecraft:enter_block",
             "conditions": {
-                "location": {
-                    "position": {
-                        "x": {
-                            "min": -223,
-                            "max": -222
-                        },
-                        "y": {
-                            "min": 103,
-                            "max": 104
-                        },
-                        "z": {
-                            "min": -260,
-                            "max": -259
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 5950,
+                                        "max": 5951
+                                    },
+                                    "y": {
+                                        "min": 61,
+                                        "max": 68
+                                    },
+                                    "z": {
+                                        "min": -4134,
+                                        "max": -4126
+                                    }
+                                },
+                                "dimension": "minecraft:overworld"
+                            },
+                            "player": {
+                                "gamemode": "adventure"
+                            }
                         }
-                    },
-                    "block": {
-                        "blocks": [
-                            "minecraft:lever"
-                        ]
                     }
-                }
+                ]
             }
         }
     },
+    "requirements": [
+        [
+            "cross_barrier"
+        ]
+    ],
     "rewards": {
         "function": "daegl:dungeon/levels/1/play/start"
     }
