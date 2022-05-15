@@ -1,3 +1,3 @@
 # asat arbitary
 
-execute positioned -241 97 -276 run function daegl:dungeon/reset/_private/reset_inner
+execute positioned 5743 -60 -4268 run function daegl:dungeon/reset/_private/reset_inner
