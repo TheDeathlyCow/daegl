@@ -41,6 +41,24 @@
                                     ]
                                 },
                                 {
+                                    "function": "minecraft:furnace_smelt",
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "nbt": "{AutoSmeltLevel:1b}"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:inverted",
+                                            "term": {
+                                                "condition": "minecraft:reference",
+                                                "name": "daegl:in_daegl"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
                                     "function": "minecraft:explosion_decay"
                                 },
                                 {
