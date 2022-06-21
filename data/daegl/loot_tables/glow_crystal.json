@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Glowing Shard",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{GlowingShard:1b,CustomModelData:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
