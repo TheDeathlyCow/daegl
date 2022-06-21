@@ -13,5 +13,3 @@ execute if score current daegl.game_stage >= PREPARE_IRON daegl.game_stage run s
 tellraw @s [{"text": "You have left the ","color": "red"},{"text": "Mines of Daegl", "color": "gold"},"!"]
 
 execute at @s run playsound minecraft:block.note_block.iron_xylophone master @s ~ ~ ~ 1 0.2
-
-gamemode survival @s 

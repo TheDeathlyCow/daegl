@@ -8,19 +8,19 @@
                     "location": {
                         "position": {
                             "x": {
-                                "min": 6028,
-                                "max": 6029
+                                "min": 6026,
+                                "max": 6027
                             },
                             "y": {
                                 "min": 72,
                                 "max": 73
                             },
                             "z": {
-                                "min": -4103,
-                                "max": -4102
+                                "min": -4106,
+                                "max": -4105
                             }
                         },
-                        "dimension": "minecraft:overworld"
+                        "dimension": "tns8wg:dungeon_dim"
                     }
                 }
             }

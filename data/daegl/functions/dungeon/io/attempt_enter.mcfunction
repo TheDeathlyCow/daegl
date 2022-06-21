@@ -3,7 +3,7 @@
 function daegl:dungeon/util/count_players
 
 
-# part has room bool
+# party has room bool
 execute store success score daegl.dungeon.io.attempt_enter#party_has_room daegl.temp if score player_count daegl.game_variables < MAX_PLAYERS daegl.constants
 # in right stage bool
 execute store success score daegl.dungeon.io.attempt_enter#in_right_game_stage daegl.temp if score current daegl.game_stage matches 0..1
