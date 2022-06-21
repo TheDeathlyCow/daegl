@@ -24,7 +24,7 @@
                                         "max": -4126
                                     }
                                 },
-                                "dimension": "minecraft:overworld"
+                                "dimension": "tns8wg:dungeon_dim"
                             },
                             "player": {
                                 "gamemode": "adventure"
