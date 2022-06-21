@@ -1,24 +1,33 @@
 {
-    "type": "minecraft:generic",
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "name": "daegl:entities/standard_enemy"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
                     "type": "minecraft:item",
-                    "name": "minecraft:amethyst_shard",
+                    "name": "minecraft:gold_ingot",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "text": "Glowing Shard",
-                                "color": "light_purple",
+                                "text": "Firestone Pickaxe Head",
+                                "color": "gold",
                                 "italic": false
                             }
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{GlowingShard:1b,CustomModelData:1}"
+                            "tag": "{CustomModelData:1,FirestonePickaxeHead:1b}"
                         }
                     ]
                 }
