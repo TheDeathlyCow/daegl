@@ -10,6 +10,7 @@ function daegl:dungeon/levels/clear_tickers
 scoreboard players operation current daegl.game_stage = INACTIVE daegl.game_stage
 scoreboard players reset time_first_player_entered daegl.game_variables
 
-function daegl:dungeon/reset/reset
-
 schedule clear daegl:dialogue/speak/play_message/lord
+
+tellraw @a [{"text": "","color": "red"},{"text": "WARNING! ", "color": "dark_red", "bold": true},{"text": "Resetting the Mines of Daegl! There may be some lag!"}]
+schedule function daegl:dungeon/reset/reset 1s

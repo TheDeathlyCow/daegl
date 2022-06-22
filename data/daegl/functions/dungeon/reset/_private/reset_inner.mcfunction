@@ -6,3 +6,5 @@ execute as @e[type=marker,tag=daegl_reset_marker] at @s run function daegl:dunge
 kill @e[dx=362,dy=200,dz=250,type=item,tag=!preserved_item,predicate=daegl:in_daegl_dim]
 
 tellraw @a[tag=debug] "Reset daegl"
+
+function daegl:dungeon/reset/_private/place_levels
