@@ -6,6 +6,7 @@ gamemode adventure @s
 
 scoreboard players reset @s daegl.logout_count
 tag @s add in_daegl
+scoreboard players set @s daegl.in_dungeon 1
 
 function daegl:dungeon/io/inventory/save
 

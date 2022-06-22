@@ -6,6 +6,10 @@
             "conditions": {
                 "player": [
                     {
+                        "condition": "minecraft:reference",
+                        "name": "daegl:in_daegl"
+                    },
+                    {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {

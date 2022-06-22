@@ -3,6 +3,7 @@
 
 scoreboard players reset @s daegl.logout_count
 tag @s remove in_daegl
+scoreboard players reset @s daegl.in_dungeon
 
 teleport @s ~4 ~ ~
 

@@ -4,19 +4,25 @@
         "requirement": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "daegl:in_daegl"
+                    }
+                ],
                 "location": {
                     "position": {
                         "x": {
-                            "min": -223,
-                            "max": -222
+                            "min": 5961,
+                            "max": 5962
                         },
                         "y": {
-                            "min": 103,
-                            "max": 104
+                            "min": -6,
+                            "max": -7
                         },
                         "z": {
-                            "min": -251,
-                            "max": -250
+                            "min": -4149,
+                            "max": -4148
                         }
                     },
                     "dimension": "tns8wg:dungeon_dim",

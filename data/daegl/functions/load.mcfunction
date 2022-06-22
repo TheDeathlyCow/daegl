@@ -13,6 +13,7 @@ scoreboard objectives add daegl.merchant_dialogue_cooldown dummy
 scoreboard objectives add daegl.logout_count minecraft.custom:minecraft.leave_game
 scoreboard objectives add daegl.game_variables dummy
 scoreboard objectives add daegl.xp_backup dummy
+scoreboard objectives add daegl.in_dungeon dummy
 
 # upgrade scores
 scoreboard objectives add daegl.upgrades.fortune dummy
