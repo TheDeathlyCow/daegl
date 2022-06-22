@@ -9,6 +9,8 @@ scoreboard players operation $selected_dialogue daegl.temp %= FIDELAN_MERCHANT_D
 execute if score $selected_dialogue daegl.temp matches 0 run tellraw @s [{"text": "[","color": "yellow"},{"text": "Fidelan Merchant","color": "gold"}, {"text": "] Quality goods for quality people!"}]
 execute if score $selected_dialogue daegl.temp matches 1 run tellraw @s [{"text": "[","color": "yellow"},{"text": "Fidelan Merchant","color": "gold"}, {"text": "] You're not here to steal anything, are you?"}]
 execute if score $selected_dialogue daegl.temp matches 2 run tellraw @s [{"text": "[","color": "yellow"},{"text": "Fidelan Merchant","color": "gold"}, {"text": "] Better safe than sorry! Restock your potions here!"}]
+execute if score $selected_dialogue daegl.temp matches 3 run tellraw @s [{"text": "[","color": "yellow"},{"text": "Fidelan Merchant","color": "gold"}, {"text": "] Make sure to take your preworkout before heading into the Mines!"}]
+execute if score $selected_dialogue daegl.temp matches 4 run tellraw @s [{"text": "[","color": "yellow"},{"text": "Fidelan Merchant","color": "gold"}, {"text": "] Have you been to the gym today?"}]
 
 scoreboard players reset $selected_dialogue daegl.temp
 
