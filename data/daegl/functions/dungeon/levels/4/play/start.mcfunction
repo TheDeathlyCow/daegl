@@ -10,3 +10,5 @@ scoreboard players reset resource_count daegl.game_variables
 execute at @e[type=marker,tag=final_boss_marker] run summon minecraft:giant ~ ~ ~ {PersistenceRequired:1b,Tags:["daegl_boss"]}
 
 execute as @e[tag=daegl_boss,limit=1] at @s run function daegl:dungeon/levels/4/play/build_boss
+
+execute in tns8wg:dungeon_dim positioned 5953 -6 -4149 run function daegl:util/create_fake_explosion 

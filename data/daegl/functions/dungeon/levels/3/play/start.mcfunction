@@ -13,3 +13,5 @@ bossbar set daegl:resource_bossbar color yellow
 bossbar set daegl:resource_bossbar name [{"text": "Gold Ore Gathered", "color": "#FFD700", "bold": true}]
 
 function daegl:dialogue/speak/start/gold
+
+execute in tns8wg:dungeon_dim positioned 6002 14 -4150 run function daegl:util/create_fake_explosion 
