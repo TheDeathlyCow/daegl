@@ -9,3 +9,6 @@ execute at @e[type=marker,tag=daegl_copper_lever,limit=1] run setblock ~ ~ ~ lev
 execute at @e[type=marker,tag=daegl_copper_lever,limit=1] run summon firework_rocket ~ ~ ~ {FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;12088115]}]}}}}
 
 function daegl:dialogue/speak/enter
+
+kill @e[tag=daegl.minecart] 
+execute at @e[tag=daegl.minecart_marker] run summon minecart ~ ~ ~ {Tags:["daegl.minecart"],Invulnerable:1b}
