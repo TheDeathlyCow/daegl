@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_pickaxe",
+                    "functions": [
+                        {   
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CanDestroy:['#daegl:destroyable/iron_pick']}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+                "text": "Miner's Pickaxe",
+                "italic": false
+            }
+        },
+        {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+                {
+                    "text": "Diggy diggy hole",
+                    "color": "dark_gray"
+                }
+            ],
+            "replace": true
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{Unbreakable:1b,DaeglPickaxe:1b,DaeglItem:1b,HideFlags:28}"
+        }
+    ]
+}
