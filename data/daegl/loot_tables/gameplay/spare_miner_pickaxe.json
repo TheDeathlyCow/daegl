@@ -22,7 +22,7 @@
             "function": "minecraft:set_name",
             "entity": "this",
             "name": {
-                "text": "Miner's Pickaxe",
+                "text": "Old Miner's Pickaxe",
                 "italic": false
             }
         },
@@ -31,7 +31,7 @@
             "entity": "this",
             "lore": [
                 {
-                    "text": "Diggy diggy hole",
+                    "text": "Just an old spare",
                     "color": "dark_gray"
                 }
             ],
