@@ -10,6 +10,6 @@ scoreboard players reset resource_count daegl.game_variables
 scoreboard players operation daegl.dungeon.util.create_resource_bossbar#max daegl.function_params = IRON_AMOUNT daegl.constants
 function daegl:dungeon/util/create_resource_bossbar
 bossbar set daegl:resource_bossbar color white
-bossbar set daegl:resource_bossbar name [{"text": "Iron Ore Gathered", "color": "#C0C0C0", "bold": true}]
+bossbar set daegl:resource_bossbar name [{"text": "Iron Ore Processed", "color": "#C0C0C0", "bold": true}]
 
 execute in tns8wg:dungeon_dim positioned 5989 39 -4132 run function daegl:util/create_fake_explosion 

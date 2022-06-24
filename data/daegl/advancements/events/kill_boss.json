@@ -1,0 +1,17 @@
+{
+    "parent": "daegl:events/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:giant",
+                    "nbt": "{Tags:[\"daegl_boss\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "daegl:dungeon/levels/over/start"
+    }
+}

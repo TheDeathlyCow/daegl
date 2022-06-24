@@ -10,7 +10,7 @@ scoreboard players reset resource_count daegl.game_variables
 scoreboard players operation daegl.dungeon.util.create_resource_bossbar#max daegl.function_params = GOLD_AMOUNT daegl.constants
 function daegl:dungeon/util/create_resource_bossbar
 bossbar set daegl:resource_bossbar color yellow
-bossbar set daegl:resource_bossbar name [{"text": "Gold Ore Gathered", "color": "#FFD700", "bold": true}]
+bossbar set daegl:resource_bossbar name [{"text": "Gold Ore Processed", "color": "#FFD700", "bold": true}]
 
 function daegl:dialogue/speak/start/gold
 

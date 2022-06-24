@@ -10,6 +10,8 @@ data modify storage daegl:dialogue style.lord set value '{"text":"","color": "ye
 data modify storage daegl:dialogue name.boss set value '[{"text":"[","color":"dark_red"},{"text":"The Heart of the Mountain", "color": "dark_red", "bold":true}, {"text":"] "}]'
 data modify storage daegl:dialogue style.boss set value '{"text":"","color": "red"}'
 
+data modify storage daegl:dialogue name.merchant set value '[{"text":"[","color":"yellow"},{"text":"Ancient Master", "color": "gold", "bold":true}, {"text":"] "}]'
+data modify storage daegl:dialogue style.merchant set value '{"text":"","color": "yellow"}'
 
 # On enter mine dialogue
 
@@ -63,3 +65,19 @@ data modify storage daegl:dialogue complete.gold.en_us set value []
 data modify storage daegl:dialogue complete.gold.en_us append value "All thats left now is the crystal cavern. Pull the lever to clear the rubble blocking it whenever you're ready."
 data modify storage daegl:dialogue complete.gold.en_us append value "We thank you, adventurer, for your aid."
 data modify storage daegl:dialogue complete.gold.en_us append value "The great golden mines of Daegl have once again returned to their rightful Keepers!"
+
+
+# On boss death
+
+data modify storage daegl:dialogue complete.crystal.boss.en_us set value []
+data modify storage daegl:dialogue complete.crystal.merchant.en_us set value []
+data modify storage daegl:dialogue complete.crystal.lord.en_us set value []
+
+#data modify storage daegl:dialogue complete.crystal.boss.en_us append value ""
+data modify storage daegl:dialogue complete.crystal.boss.en_us append value "Aaaaaaarrrgghhhh..... . .. . .... . . . ."
+
+#data modify storage daegl:dialogue complete.crystal.merchant.en_us append value ""
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value ""
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "W-whats happening?"
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Why am I surrounded by humans??"
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "H-hello?"

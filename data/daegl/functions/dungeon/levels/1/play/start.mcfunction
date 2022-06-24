@@ -10,4 +10,4 @@ scoreboard players reset resource_count daegl.game_variables
 scoreboard players operation daegl.dungeon.util.create_resource_bossbar#max daegl.function_params = COPPER_AMOUNT daegl.constants
 function daegl:dungeon/util/create_resource_bossbar
 bossbar set daegl:resource_bossbar color green
-bossbar set daegl:resource_bossbar name [{"text": "Copper Ore Gathered", "color": "#B87333", "bold": true}]
+bossbar set daegl:resource_bossbar name [{"text": "Copper Ore Processed", "color": "#B87333", "bold": true}]
