@@ -15,4 +15,4 @@ schedule clear daegl:dialogue/speak/play_message/boss
 schedule clear daegl:dialogue/speak/play_message/merchant
 
 tellraw @a [{"text": "","color": "red"},{"text": "WARNING! ", "color": "dark_red", "bold": true},{"text": "Resetting the Mines of Daegl! There may be some lag!"}]
-schedule function daegl:dungeon/reset/reset 1s
+function daegl:dungeon/reset/reset
