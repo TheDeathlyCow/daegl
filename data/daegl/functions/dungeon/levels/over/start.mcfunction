@@ -13,3 +13,5 @@ function daegl:dialogue/speak/complete/crystal
 schedule function daegl:dungeon/levels/over/heal_boss 5s
 
 advancement revoke @s only daegl:events/kill_boss
+
+bossbar remove daegl:final_bossbar

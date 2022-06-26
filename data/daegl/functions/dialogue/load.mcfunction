@@ -77,7 +77,9 @@ data modify storage daegl:dialogue complete.crystal.lord.en_us set value []
 data modify storage daegl:dialogue complete.crystal.boss.en_us append value "Aaaaaaarrrgghhhh..... . .. . .... . . . ."
 
 #data modify storage daegl:dialogue complete.crystal.merchant.en_us append value ""
-data modify storage daegl:dialogue complete.crystal.merchant.en_us append value ""
-data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "W-whats happening?"
-data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Why am I surrounded by humans??"
-data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "H-hello?"
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "So please, have a look at what I can provide you, and let me know if there is anything you want! And thank you again, Heroes."
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Of course, while I am forbidden from sharing the seeds of our Knowledge with you, I can share it's fruit."
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "I am one of the Dwarven Masters, entrusted with the secret Knowledge of our crafts. So, perhaps some vials of Miner's Brew could be to your liking?"
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Thank you Heroes! I have been trapped in that form for an age! I don't know how I could possibly ever repay you."
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Am I free? Am I finally free?!"
+data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "H-hello? What's happening? Who are you?"
