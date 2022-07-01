@@ -16,6 +16,7 @@ advancement grant @s only daegl:dungeon_levels/enter_dungeon
 teleport @s ~-4 ~ ~
 
 execute at @s run function daegl:dungeon/io/give_start_kit
+spawnpoint @s 5925 65 -4127
 
 function daegl:dungeon/util/count_players
 execute if score player_count daegl.game_variables = #1 daegl.constants run function daegl:dungeon/io/begin_dungeon_countdown
