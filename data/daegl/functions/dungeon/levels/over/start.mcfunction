@@ -12,6 +12,8 @@ playsound minecraft:entity.zombie_villager.ambient master @s ~ ~ ~ 1 0.3
 function daegl:dialogue/speak/complete/crystal
 schedule function daegl:dungeon/levels/over/heal_boss 5s
 
-advancement revoke @s only daegl:events/kill_boss
+#advancement revoke @s only daegl:events/kill_boss
 
 bossbar remove daegl:final_bossbar
+
+kill @e[tag=daegl.boss_rider]

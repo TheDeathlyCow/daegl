@@ -7,3 +7,5 @@ function daegl:dungeon/reset/_private/place_levels
 kill @e[dx=362,dy=200,dz=250,type=item,tag=!preserved_item,predicate=daegl:in_daegl_dim]
 
 tellraw @a[tag=debug] "Reset daegl"
+
+teleport @e[tag=brewer_merchant,tag=daegl_merchant] ~ ~-500 ~
