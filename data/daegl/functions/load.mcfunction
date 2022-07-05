@@ -27,6 +27,9 @@ scoreboard objectives add daegl.break_oak_planks minecraft.mined:oak_planks
 scoreboard objectives add daegl.break_oak_stairs minecraft.mined:oak_stairs
 scoreboard objectives add daegl.break_oak_slab minecraft.mined:oak_slab
 
+# boss stage
+scoreboard objectives add daegl.boss_attack dummy
+
 # time player last finished dungeon
 scoreboard objectives add daegl.time_finished dummy
 # track how many runs each player has completed 
@@ -82,6 +85,12 @@ scoreboard players set CRYSTAL daegl.game_stage 8
 scoreboard players set GAME_OVER daegl.game_stage 9
 # initialize current game stage to 0
 scoreboard players add current daegl.game_stage 0
+
+# boss stages
+scoreboard players set FIRE daegl.boss_attack 0
+scoreboard players set EXPLOSION daegl.boss_attack 1
+
+scoreboard players set num_attacks daegl.boss_attack 2
 
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}

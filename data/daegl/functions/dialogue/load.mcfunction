@@ -89,3 +89,7 @@ data modify storage daegl:dialogue complete.crystal.merchant.en_us append value 
 data modify storage daegl:dialogue boss_attacks.fire.attack.en_us set value []
 
 data modify storage daegl:dialogue boss_attacks.fire.attack.en_us append value "FEEL THE BURN!"
+
+data modify storage daegl:dialogue boss_attacks.explosion.attack.en_us set value []
+
+data modify storage daegl:dialogue boss_attacks.explosion.attack.en_us append value "BA BOOM!"
