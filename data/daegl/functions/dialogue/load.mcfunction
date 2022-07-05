@@ -83,3 +83,9 @@ data modify storage daegl:dialogue complete.crystal.merchant.en_us append value 
 data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Thank you Heroes! I have been trapped in that form for an age! I don't know how I could possibly ever repay you."
 data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "Am I free? Am I finally free?!"
 data modify storage daegl:dialogue complete.crystal.merchant.en_us append value "H-hello? What's happening? Who are you?"
+
+
+# boss fight dialogue
+data modify storage daegl:dialogue boss_attacks.fire.attack.en_us set value []
+
+data modify storage daegl:dialogue boss_attacks.fire.attack.en_us append value "FEEL THE BURN!"

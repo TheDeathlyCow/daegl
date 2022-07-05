@@ -59,6 +59,7 @@ scoreboard players set #20 daegl.constants 20
 scoreboard players set #MIN_VALUE daegl.constants -2147483648
 scoreboard players set #MAX_VALUE daegl.constants 2147483647
 
+
 # io constants
 scoreboard players set ENTER_DUNGEON_WINDOW daegl.constants 600
 scoreboard players set MAX_PLAYERS daegl.constants 5
@@ -66,6 +67,7 @@ scoreboard players set MAX_PLAYERS daegl.constants 5
 scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 864000
 # for testing - 30 seconds between runs
 scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 600
+
 
 # game stages
 scoreboard players set INACTIVE daegl.game_stage 0
@@ -80,7 +82,6 @@ scoreboard players set CRYSTAL daegl.game_stage 8
 scoreboard players set GAME_OVER daegl.game_stage 9
 # initialize current game stage to 0
 scoreboard players add current daegl.game_stage 0
-
 
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}
