@@ -1,10 +1,10 @@
 # asat explosion marker
 
-particle explosion ~ ~ ~ 1.5 0.75 1.5 1 50
+particle explosion ~ ~ ~ 1.5 0.75 1.5 1 50 force
 
-playsound entity.generic.explode master @a ~ ~ ~ 
+playsound entity.generic.explode master @a ~ ~ ~ 3 
 
-summon area_effect_cloud ~ ~ ~ {Duration:10,Potion:"minecraft:strong_harming"}
+summon potion ~ ~ ~ {Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:strong_harming"}}}
 
 tag @s remove unexploded
 

@@ -1,6 +1,6 @@
 # as arbitary, at daegl reset pos
 
-teleport @e[type=#daegl:monsters,tag=daegl_mob,predicate=daegl:in_daegl_dim] ~ -255 ~
+teleport @e[tag=daegl_mob,predicate=daegl:in_daegl_dim] ~ -255 ~
 execute at @e[tag=daegl_lever] run fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:lever
 execute as @e[type=marker,tag=daegl_reset_marker] at @s run function daegl:dungeon/reset/_private/marker_reset
 function daegl:dungeon/reset/_private/place_levels
