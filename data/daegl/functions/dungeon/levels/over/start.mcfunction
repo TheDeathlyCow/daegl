@@ -1,6 +1,7 @@
 # asat player who killed boss
 
 function daegl:dungeon/levels/clear_tickers
+function daegl:dungeon/boss/clear_attack_schedule
 
 scoreboard players operation current daegl.game_stage = GAME_OVER daegl.game_stage
 

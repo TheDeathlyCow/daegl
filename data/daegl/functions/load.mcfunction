@@ -89,8 +89,9 @@ scoreboard players add current daegl.game_stage 0
 # boss stages
 scoreboard players set FIRE daegl.boss_attack 0
 scoreboard players set EXPLOSION daegl.boss_attack 1
+scoreboard players set POISON daegl.boss_attack 2
 
-scoreboard players set num_attacks daegl.boss_attack 2
+scoreboard players set num_attacks daegl.boss_attack 3
 
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}

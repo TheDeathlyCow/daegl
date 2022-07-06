@@ -93,3 +93,7 @@ data modify storage daegl:dialogue boss_attacks.fire.attack.en_us append value "
 data modify storage daegl:dialogue boss_attacks.explosion.attack.en_us set value []
 
 data modify storage daegl:dialogue boss_attacks.explosion.attack.en_us append value "BA BOOM!"
+
+data modify storage daegl:dialogue boss_attacks.poison.attack.en_us set value []
+
+data modify storage daegl:dialogue boss_attacks.poison.attack.en_us append value "Hehehehe!"

@@ -1,6 +1,6 @@
 # asat server
 
-schedule clear daegl:dungeon/boss/explosion_attack/warn_tick
+schedule clear daegl:dungeon/boss/explosion_attack/warn
 
 tag @e[tag=daegl.boss_explosion_marker] add unexploded
 function daegl:dungeon/boss/explosion_attack/next_explosion

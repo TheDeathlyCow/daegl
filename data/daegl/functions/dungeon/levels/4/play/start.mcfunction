@@ -13,6 +13,7 @@ execute as @e[tag=daegl_boss,limit=1] at @s run function daegl:dungeon/levels/4/
 
 execute in tns8wg:dungeon_dim positioned 5953 -6 -4149 run function daegl:util/create_fake_explosion 
 
-schedule function daegl:dungeon/boss/fire_attack/start 10s
+schedule function daegl:dungeon/boss/start_next_attack 30s
 
 execute in tns8wg:dungeon_dim run spawnpoint @a[tag=in_daegl] 5854 -20 -4146
+
