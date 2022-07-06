@@ -29,6 +29,7 @@ scoreboard objectives add daegl.break_oak_slab minecraft.mined:oak_slab
 
 # boss stage
 scoreboard objectives add daegl.boss_attack dummy
+scoreboard objectives add daegl.fireball_attack_vectors dummy
 
 # time player last finished dungeon
 scoreboard objectives add daegl.time_finished dummy
