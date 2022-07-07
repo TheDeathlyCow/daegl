@@ -97,4 +97,9 @@ scoreboard players set num_attacks daegl.boss_attack 3
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}
 
+# unpushable team
+
+team add daegl.unpushables
+team modify daegl.unpushables collisionRule never
+
 schedule function daegl:tick 1t replace
