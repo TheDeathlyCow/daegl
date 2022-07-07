@@ -1,10 +1,8 @@
 # as server, at world spawn
 
-schedule function daegl:dungeon/levels/4/play/ticker 2t
+schedule function daegl:dungeon/levels/4/play/ticker 1t
 
-scoreboard players set boss_health daegl.game_variables 0
-execute store result score boss_health daegl.game_variables run data get entity @e[tag=daegl_boss,limit=1] Health
-execute store result bossbar daegl:final_bossbar value run scoreboard players get boss_health daegl.game_variables
+execute as @e[tag=daegl_boss,limit=1] at @s run function daegl:dungeon/levels/4/play/tick_as_boss 
 
 #execute as @e[tag=daegl.boss_rider] at @s if entity @s[nbt={OnGround:1b}] run function daegl:dungeon/levels/over/start
 

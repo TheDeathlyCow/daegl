@@ -1,0 +1,30 @@
+{
+    "feature": "daegl:boss_fire_attack",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 10,
+                    "max_inclusive": 15
+                }
+            }
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 4
+                },
+                "max_inclusive": {
+                    "below_top": 4
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
