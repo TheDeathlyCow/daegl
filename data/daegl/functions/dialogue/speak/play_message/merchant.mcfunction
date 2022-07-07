@@ -9,5 +9,5 @@ tellraw @a[tag=in_daegl] [{"nbt":"style.merchant", "storage": "daegl:dialogue", 
 execute as @a[tag=in_daegl] at @s run playsound minecraft:entity.villager.ambient neutral @s ~ ~ ~ 1 1.0
 
 data remove storage daegl:dialogue to_speak.merchant[-1]
-execute if data storage daegl:dialogue to_speak.merchant[-1] run schedule function daegl:dialogue/speak/play_message/merchant 3s replace
+execute if data storage daegl:dialogue to_speak.merchant[-1] run schedule function daegl:dialogue/speak/play_message/merchant 5s replace
 
