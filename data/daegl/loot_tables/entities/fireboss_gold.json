@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "daegl:entities/standard_enemy"
+                    "name": "daegl:entities/greater_enemy"
                 }
             ]
         },
