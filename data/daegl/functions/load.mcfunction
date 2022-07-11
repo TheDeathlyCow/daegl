@@ -102,4 +102,10 @@ summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b
 team add daegl.unpushables
 team modify daegl.unpushables collisionRule never
 
+team add daegl.players 
+team modify daegl.players collisionRule never
+team modify daegl.players friendlyFire false
+team modify daegl.players color gold
+team modify daegl.players seeFriendlyInvisibles true
+
 schedule function daegl:tick 1t replace
