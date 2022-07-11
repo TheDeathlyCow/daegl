@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "daegl:glow_crystal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 32
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
