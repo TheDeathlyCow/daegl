@@ -15,3 +15,5 @@ bossbar set daegl:resource_bossbar name [{"text": "Gold Ore Processed", "color":
 function daegl:dialogue/speak/start/gold
 
 execute in tns8wg:dungeon_dim positioned 6002 14 -4150 run function daegl:util/create_fake_explosion 
+
+execute as @e[tag=daegl.fireboss_marker_gold] at @s run function daegl:dungeon/levels/3/play/summon_fireboss
