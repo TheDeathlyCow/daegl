@@ -39,3 +39,9 @@ place template daegl:gold/11 5862 -3 -4118
 place template daegl:gold/12 5899 -7 -4102
 place template daegl:gold/13 5947 -10 -4102
 place template daegl:gold/14 5925 -8 -4054
+
+
+# boss
+place template daegl:boss/no_spawner/1 5780 -35 -4173
+place template daegl:boss/no_spawner/2 5828 -35 -4173
+place template daegl:boss/no_spawner/3 5780 -35 -4125

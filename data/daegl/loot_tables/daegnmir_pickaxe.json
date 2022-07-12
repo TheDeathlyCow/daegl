@@ -1,0 +1,52 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Pickaxe of Daegnmir",
+                                "color": "gold",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Forged from the fires of Daegnheim",
+                                    "color": "dark_red"
+                                },
+                                {
+                                    "text": "and imbued with the essence of Daegnmir,",
+                                    "color": "dark_red"
+                                },
+                                {
+                                    "text": "it is fabled to create three iron from one...",
+                                    "color": "dark_red"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{DaegnmirPickaxe:1b,CustomModelData:4}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:vanishing_curse": 1,
+                                "minecraft:fortune": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

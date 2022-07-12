@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": "Cowardly",
+        "description": "Use night vision in the Mines of Daegl",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "daegl:dungeon_levels/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "daegl:in_daegl"
+                    }
+                ],
+                "effects": {
+                    "minecraft:night_vision": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
