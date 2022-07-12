@@ -10,4 +10,4 @@ tag @s remove unexploded
 
 execute if entity @e[tag=daegl.boss_explosion_marker,tag=unexploded] run schedule function daegl:dungeon/boss/explosion_attack/next_explosion 4t
 
-execute if predicate daegl:should_summon_minion run summon minecraft:zombie_villager ~ ~ ~ {IsBaby:1b,Tags:["daegl_mob"],DeathLootTable:"daegl:entities/standard_enemy"}
+execute if predicate daegl:should_summon_minion run summon minecraft:zombie_villager ~ ~ ~ {IsBaby:1b,Tags:["daegl_mob"],DeathLootTable:"daegl:entities/standard_enemy",ActiveEffects:[{Id:12b,Amplifier:0b,Duration:19999800,ShowParticles:0b}]}

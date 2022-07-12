@@ -2,7 +2,7 @@
 
 schedule clear daegl:dungeon/boss/explosion_attack/warn
 
-execute at @e[tag=daegl.boss_summon_marker] if predicate daegl:should_summon_minion run summon minecraft:ghast ~ ~10 ~ {Tags:["daegl_mob"],DeathLootTable:"daegl:entities/greater_enemy"}
+execute at @e[tag=daegl.boss_summon_marker] if predicate daegl:should_summon_ghast run summon minecraft:ghast ~ ~10 ~ {Tags:["daegl_mob"],DeathLootTable:"daegl:entities/greater_enemy"}
 
 tag @e[tag=daegl.boss_explosion_marker] add unexploded
 function daegl:dungeon/boss/explosion_attack/next_explosion
