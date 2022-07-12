@@ -84,6 +84,7 @@ scoreboard players set GOLD daegl.game_stage 6
 scoreboard players set PREPARE_CRYSTAL daegl.game_stage 7
 scoreboard players set CRYSTAL daegl.game_stage 8
 scoreboard players set GAME_OVER daegl.game_stage 9
+
 # initialize current game stage to 0
 scoreboard players add current daegl.game_stage 0
 
