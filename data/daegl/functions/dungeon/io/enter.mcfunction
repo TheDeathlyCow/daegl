@@ -25,5 +25,3 @@ execute if score current daegl.game_stage = INACTIVE daegl.game_stage run schedu
 scoreboard players reset @s daegl.break_oak_planks
 scoreboard players reset @s daegl.break_oak_stairs
 scoreboard players reset @s daegl.break_oak_slab
-
-team join daegl.players @s

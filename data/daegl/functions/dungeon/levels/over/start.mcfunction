@@ -5,6 +5,8 @@ function daegl:dungeon/levels/clear_tickers
 
 scoreboard players operation current daegl.game_stage = GAME_OVER daegl.game_stage
 
+teleport @e[tag=daegl_mob,distance=..200] ~ ~-500 ~
+function daegl:dungeon/reset/place_boss_levels
 tellraw @a[tag=debug] "Boss Beaten!"
 
 particle minecraft:poof ~ ~ ~ 10 10 10 1.0 5000

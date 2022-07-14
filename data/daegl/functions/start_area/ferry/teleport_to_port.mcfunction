@@ -10,3 +10,5 @@ execute at @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1
 advancement revoke @s only daegl:events/enter_ferry_at_spawn
 
 gamemode adventure @s
+
+team join daegl.players @s
