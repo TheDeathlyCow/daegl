@@ -15,3 +15,5 @@ bossbar set daegl:resource_bossbar name [{"text": "Iron Ore Processed", "color":
 execute in tns8wg:dungeon_dim positioned 5989 39 -4132 run function daegl:util/create_fake_explosion 
 
 execute as @e[tag=daegl.fireboss_marker_iron] at @s run function daegl:dungeon/levels/2/play/summon_fireboss
+
+kill @e[tag=daegl.start_level_tutorial]
