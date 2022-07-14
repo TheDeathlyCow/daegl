@@ -46,9 +46,9 @@ scoreboard players set UPGRADE_DIAGLOGUE_COUNT daegl.constants 4
 scoreboard players set MERCHANT_DIALOGUE_COOLDOWN daegl.constants 300
 
 # resource bar constants
-scoreboard players set COPPER_AMOUNT daegl.constants 100
-scoreboard players set IRON_AMOUNT daegl.constants 100
-scoreboard players set GOLD_AMOUNT daegl.constants 100
+scoreboard players set COPPER_AMOUNT daegl.constants 700
+scoreboard players set IRON_AMOUNT daegl.constants 250
+scoreboard players set GOLD_AMOUNT daegl.constants 150
 
 # upgrades constants
 scoreboard players set MAX_FORTUNE_LEVEL daegl.constants 3
