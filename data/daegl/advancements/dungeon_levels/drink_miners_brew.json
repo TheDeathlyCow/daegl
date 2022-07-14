@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{MinersBrew:1b,display:{Name:'{\"text\":\"Miner\\'s Brew\",\"color\":\"gold\",\"italic\":false}'},CustomPotionEffects:[{Id:3b,Amplifier:7b,Duration:18000}],CustomPotionColor:16759119}"
+        },
+        "title": {
+            "text": "Preworkout"
+        },
+        "description": {
+            "text": "Drink Miner's Brew"
+        },
+        "frame": "goal"
+    },
+    "parent": "daegl:dungeon_levels/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "nbt": "{MinersBrew:1b}"
+                }
+            }
+        }
+    }
+}

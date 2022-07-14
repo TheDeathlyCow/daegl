@@ -1,16 +1,16 @@
 {
-    "parent": "daegl:dungeon_levels/enter_dungeon",
+    "parent": "daegl:dungeon_levels/complete_golden_tunnels",
     "display": {
         "icon": {
-            "item": "minecraft:exposed_copper"
+            "item": "minecraft:amethyst_shard"
         },
         "title": {
-            "text": "You're Cu-te",
-            "color": "#B87333"
+            "text": "A Giant Problem",
+            "color": "#BF9EF0"
         },
         "description": {
-            "text": "Complete the first level of the Mines of Daegl",
-            "color": "#4E7566"
+            "text": "Defeat the Heart of the Mountain",
+            "color": "#552A85"
         },
         "frame": "challenge",
         "hidden": true

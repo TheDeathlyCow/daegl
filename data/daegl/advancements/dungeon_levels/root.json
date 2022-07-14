@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{CustomModelData:3}"
         },
         "title": {
             "text": "The Mines of Daegl",
@@ -9,7 +10,7 @@
         },
         "description": {
             "text": "Welcome to the Mines of Daegl event!",
-            "color": "gray"
+            "color": "gold"
         },
         "background": "minecraft:textures/block/cobbled_deepslate.png",
         "frame": "task"

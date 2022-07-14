@@ -9,3 +9,5 @@ bossbar remove daegl:resource_bossbar
 execute as @e[type=marker,tag=daegl_gold_lever,limit=1] at @s run function daegl:dungeon/levels/3/prep/place_lever
 
 function daegl:dialogue/speak/complete/iron
+
+advancement grant @a[tag=in_daegl] only daegl:dungeon_levels/complete_iron_mines

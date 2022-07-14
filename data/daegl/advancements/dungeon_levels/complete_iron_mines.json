@@ -1,16 +1,16 @@
 {
-    "parent": "daegl:dungeon_levels/enter_dungeon",
+    "parent": "daegl:dungeon_levels/complete_copper_caves",
     "display": {
         "icon": {
-            "item": "minecraft:exposed_copper"
+            "item": "minecraft:iron_block"
         },
         "title": {
-            "text": "You're Cu-te",
-            "color": "#B87333"
+            "text": "Fe-ntastic Work",
+            "color": "#938B8A"
         },
         "description": {
-            "text": "Complete the first level of the Mines of Daegl",
-            "color": "#4E7566"
+            "text": "Complete the second level of the Mines of Daegl",
+            "color": "#857376"
         },
         "frame": "challenge",
         "hidden": true

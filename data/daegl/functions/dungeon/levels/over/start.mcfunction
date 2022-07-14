@@ -18,3 +18,5 @@ schedule function daegl:dungeon/levels/over/heal_boss 5s
 bossbar remove daegl:final_bossbar
 
 kill @e[tag=daegl.boss_rider]
+
+advancement grant @a[tag=in_daegl] only daegl:dungeon_levels/complete_crystal_caverns

@@ -1,16 +1,16 @@
 {
-    "parent": "daegl:dungeon_levels/enter_dungeon",
+    "parent": "daegl:dungeon_levels/complete_iron_mines",
     "display": {
         "icon": {
-            "item": "minecraft:exposed_copper"
+            "item": "minecraft:gold_block"
         },
         "title": {
-            "text": "You're Cu-te",
-            "color": "#B87333"
+            "text": "Au-tstanding",
+            "color": "#F7EF8A"
         },
         "description": {
-            "text": "Complete the first level of the Mines of Daegl",
-            "color": "#4E7566"
+            "text": "Complete the third level of the Mines of Daegl",
+            "color": "#926F34"
         },
         "frame": "challenge",
         "hidden": true
