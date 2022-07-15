@@ -35,7 +35,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{DaegnmirPickaxe:1b,CustomModelData:4}"
+                            "tag": "{DaegnmirPickaxe:1b,CustomModelData:2}"
                         },
                         {
                             "function": "minecraft:set_enchantments",

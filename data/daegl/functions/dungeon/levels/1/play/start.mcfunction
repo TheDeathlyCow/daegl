@@ -11,3 +11,5 @@ scoreboard players operation daegl.dungeon.util.create_resource_bossbar#max daeg
 function daegl:dungeon/util/create_resource_bossbar
 bossbar set daegl:resource_bossbar color green
 bossbar set daegl:resource_bossbar name [{"text": "Copper Ore Processed", "color": "#B87333", "bold": true}]
+
+execute as @e[tag=daegl.copper_spawner] at @s run function daegl:dungeon/levels/place_spawner_at_marker

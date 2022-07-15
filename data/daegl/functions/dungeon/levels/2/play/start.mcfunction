@@ -17,3 +17,5 @@ execute in tns8wg:dungeon_dim positioned 5989 39 -4132 run function daegl:util/c
 execute as @e[tag=daegl.fireboss_marker_iron] at @s run function daegl:dungeon/levels/2/play/summon_fireboss
 
 kill @e[tag=daegl.start_level_tutorial]
+
+execute as @e[tag=daegl.iron_spawner] at @s run function daegl:dungeon/levels/place_spawner_at_marker
