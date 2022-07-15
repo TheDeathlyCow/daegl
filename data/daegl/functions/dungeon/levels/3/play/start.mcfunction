@@ -5,12 +5,12 @@ schedule function daegl:dungeon/levels/3/play/ticker 1t replace
 tellraw @a[tag=debug] [{"text": "Start Gold Caves"}]
 scoreboard players operation current daegl.game_stage = GOLD daegl.game_stage
 
-scoreboard players reset resource_count daegl.game_variables
-
-scoreboard players operation daegl.dungeon.util.create_resource_bossbar#max daegl.function_params = GOLD_AMOUNT daegl.constants
+scoreboard players set @a[tag=in_daegl] daegl.spawners_destroyed 0
+scoreboard players set spawners_destroyed daegl.game_variables 0
+execute store result score level_spawner_count daegl.game_variables if entity @e[tag=daegl.gold_spawner]
 function daegl:dungeon/util/create_resource_bossbar
 bossbar set daegl:resource_bossbar color yellow
-bossbar set daegl:resource_bossbar name [{"text": "Gold Ore Processed", "color": "#FFD700", "bold": true}]
+bossbar set daegl:resource_bossbar name [{"text": "Spawners Destroyed", "color": "#FFD700", "bold": true}]
 
 function daegl:dialogue/speak/start/gold
 

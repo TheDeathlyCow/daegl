@@ -1,5 +1,6 @@
 # as arbitary, at daegl reset pos
 
+kill @e[tag=daegl.start_level_tutorial]
 teleport @e[tag=daegl_mob,predicate=daegl:in_daegl_dim] ~ -255 ~
 teleport @e[tag=brewer_merchant,predicate=daegl:in_daegl_dim] ~ -255 ~
 execute at @e[tag=daegl_lever] run fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:lever

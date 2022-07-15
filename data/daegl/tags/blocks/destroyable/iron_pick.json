@@ -1,5 +1,6 @@
 {
     "values": [
-        "#daegl:ores"
+        "#daegl:ores",
+        "minecraft:spawner"
     ]
 }

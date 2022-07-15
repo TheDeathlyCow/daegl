@@ -14,6 +14,7 @@ scoreboard objectives add daegl.logout_count minecraft.custom:minecraft.leave_ga
 scoreboard objectives add daegl.game_variables dummy
 scoreboard objectives add daegl.xp_backup dummy
 scoreboard objectives add daegl.in_dungeon dummy
+scoreboard objectives add daegl.spawners_destroyed minecraft.mined:spawner
 
 # upgrade scores
 scoreboard objectives add daegl.upgrades.fortune dummy
