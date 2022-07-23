@@ -2,7 +2,6 @@
 
 function daegl:dungeon/levels/clear_tickers
 
-
 scoreboard players operation current daegl.game_stage = GAME_OVER daegl.game_stage
 
 teleport @e[tag=daegl_mob,distance=..200] ~ ~-500 ~
@@ -17,8 +16,6 @@ schedule function daegl:dungeon/levels/over/heal_boss 5s
 
 #advancement revoke @s only daegl:events/kill_boss
 
-bossbar remove daegl:final_bossbar
-
-kill @e[tag=daegl.boss_rider]
+bossbar remove daegl:final_bossbar 
 
 advancement grant @a[tag=in_daegl] only daegl:dungeon_levels/complete_crystal_caverns

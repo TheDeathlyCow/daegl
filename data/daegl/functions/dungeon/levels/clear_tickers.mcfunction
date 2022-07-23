@@ -9,4 +9,5 @@ schedule clear daegl:dungeon/levels/3/prep/ticker
 schedule clear daegl:dungeon/levels/3/play/ticker
 schedule clear daegl:dungeon/levels/4/prep/ticker
 schedule clear daegl:dungeon/levels/4/play/ticker
+schedule clear daegl:dungeon/levels/over/heal_boss
 function daegl:dungeon/boss/clear_attack_schedule
