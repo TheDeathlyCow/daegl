@@ -60,6 +60,7 @@ scoreboard players set #false daegl.constants 0
 scoreboard players set #true daegl.constants 1
 scoreboard players set #0 daegl.constants 0
 scoreboard players set #1 daegl.constants 1
+scoreboard players set #3 daegl.constants 3
 scoreboard players set #20 daegl.constants 20
 scoreboard players set #MIN_VALUE daegl.constants -2147483648
 scoreboard players set #MAX_VALUE daegl.constants 2147483647

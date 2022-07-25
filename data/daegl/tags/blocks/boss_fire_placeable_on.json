@@ -1,5 +1,6 @@
 {
     "values": [
-        "minecraft:deepslate_bricks"
+        "minecraft:deepslate_bricks",
+        "minecraft:cobbled_deepslate"
     ]
 }
