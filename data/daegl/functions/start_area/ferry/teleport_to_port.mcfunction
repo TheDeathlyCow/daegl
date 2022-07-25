@@ -12,3 +12,5 @@ advancement revoke @s only daegl:events/enter_ferry_at_spawn
 gamemode adventure @s
 
 team join daegl.players @s
+
+effect clear @s hero_of_the_village
