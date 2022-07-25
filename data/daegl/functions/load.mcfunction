@@ -71,7 +71,7 @@ scoreboard players set MAX_PLAYERS daegl.constants 5
 # for production - 12 hours between runs
 scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 864000
 # for testing - 30 seconds between runs
-scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 600
+#scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 600
 
 
 # game stages
