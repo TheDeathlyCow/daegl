@@ -1,6 +1,7 @@
 # as player getting inventory restored, as arbitary location
 
 clear @s
+function daegl:dungeon/io/inventory/clear_echest
 
 function #rx.playerdb:api/v2/get/self
 
