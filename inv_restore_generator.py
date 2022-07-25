@@ -60,10 +60,10 @@ def print_slots(slots: SlotIterator):
 
 def main():
     slot_types = [
-        SlotIterator("hotbar", range(0, 9), 0),
-        SlotIterator("inventory", range(0, 27), 9),
-        SlotIterator("armor", ["feet", "legs", "chest", "head"], 100),
-        SlotIterator("weapon", ["offhand"], -106),
+        # SlotIterator("hotbar", range(0, 9), 0),
+        # SlotIterator("inventory", range(0, 27), 9),
+        # SlotIterator("armor", ["feet", "legs", "chest", "head"], 100),
+        # SlotIterator("weapon", ["offhand"], -106),
         SlotIterator("enderchest", range(0, 27), 0)
     ]
     
