@@ -18,7 +18,7 @@ scoreboard players operation $selected_creeper_boss daegl.temp = current tnsrand
 scoreboard players operation $selected_creeper_boss daegl.temp %= #3 daegl.constants
 
 execute if score $selected_creeper_boss daegl.temp matches 0 run summon creeper ~ ~3 ~ {Tags:["daegl_mob"],DeathLootTable:"daegl:entities/standard_enemy"}
-execute if score $selected_creeper_boss daegl.temp matches 1 run summon creeper ~ ~3 ~ {Tags:["daegl_mob"],DeathLootTable:"daegl:entities/standard_enemy",powered:1b}
+execute if score $selected_creeper_boss daegl.temp matches 1 run summon creeper ~ ~3 ~ {Tags:["daegl_mob"],DeathLootTable:"daegl:entities/standard_enemy"}
 execute if score $selected_creeper_boss daegl.temp matches 2 run summon creeper ~ ~3 ~ {Tags:["daegl_mob"],DeathLootTable:"daegl:entities/standard_enemy",ActiveEffects:[{Id:4,Amplifier:1b,Duration:400}]}
 
 scoreboard players reset $selected_creeper_boss daegl.temp
