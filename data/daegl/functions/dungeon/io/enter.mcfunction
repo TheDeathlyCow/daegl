@@ -13,7 +13,7 @@ function daegl:dungeon/io/inventory/save
 advancement revoke @s from daegl:events/start_level/root
 advancement grant @s only daegl:dungeon_levels/enter_dungeon
 
-teleport @s ~-4 ~ ~
+teleport @s ~-22 ~ ~
 
 execute at @s run function daegl:dungeon/io/give_start_kit
 spawnpoint @s 5925 65 -4127
@@ -25,3 +25,4 @@ execute if score current daegl.game_stage = INACTIVE daegl.game_stage run schedu
 scoreboard players reset @s daegl.break_oak_planks
 scoreboard players reset @s daegl.break_oak_stairs
 scoreboard players reset @s daegl.break_oak_slab
+scoreboard players enable @s iamstuck

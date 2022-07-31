@@ -37,6 +37,9 @@ scoreboard objectives add daegl.time_finished dummy
 # track how many runs each player has completed 
 scoreboard objectives add daegl.runs dummy
 
+# stuck trigger
+scoreboard objectives add iamstuck trigger 
+
 # reset all constant scoreboard players - help enforce constantness
 scoreboard players reset * daegl.constants
 
@@ -94,8 +97,7 @@ scoreboard players add current daegl.game_stage 0
 scoreboard players set FIRE daegl.boss_attack 0
 scoreboard players set EXPLOSION daegl.boss_attack 1
 scoreboard players set POISON daegl.boss_attack 2
-
-scoreboard players set num_attacks daegl.boss_attack 3
+scoreboard players set ENDER daegl.boss_attack 3
 
 kill @e[tag=daegl_inventory_marker]
 summon armor_stand ~ ~ ~ {Tags:["daegl_inventory_marker"],Marker:1b,Invisible:1b}

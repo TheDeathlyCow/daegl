@@ -12,3 +12,7 @@ schedule clear daegl:dungeon/boss/explosion_attack/next_explosion
 schedule clear daegl:dungeon/boss/poison_attack/warn
 schedule clear daegl:dungeon/boss/poison_attack/start
 schedule clear daegl:dungeon/boss/poison_attack/attack
+
+schedule clear daegl:dungeon/boss/ender_attack/warn
+schedule clear daegl:dungeon/boss/ender_attack/start
+schedule clear daegl:dungeon/boss/ender_attack/attack

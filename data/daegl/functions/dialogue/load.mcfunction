@@ -97,3 +97,7 @@ data modify storage daegl:dialogue boss_attacks.explosion.attack.en_us append va
 data modify storage daegl:dialogue boss_attacks.poison.attack.en_us set value []
 
 data modify storage daegl:dialogue boss_attacks.poison.attack.en_us append value "Hehehehe!"
+
+data modify storage daegl:dialogue boss_attacks.ender.attack.en_us set value []
+
+data modify storage daegl:dialogue boss_attacks.ender.attack.en_us append value "Away with you!"

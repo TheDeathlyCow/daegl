@@ -7,6 +7,7 @@ scoreboard players reset @s daegl.in_dungeon
 
 teleport @s 6016 77 -4142
 execute at @s run spawnpoint @s ~ ~ ~
+scoreboard players reset @s iamstuck
 
 execute if score current daegl.game_stage < GAME_OVER daegl.game_stage run function daegl:dungeon/io/inventory/restore
 execute if score current daegl.game_stage >= GAME_OVER daegl.game_stage store result score @s daegl.time_finished run time query gametime
