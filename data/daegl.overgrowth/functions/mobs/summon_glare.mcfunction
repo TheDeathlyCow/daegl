@@ -1,0 +1,3 @@
+# asat any
+
+summon zombified_piglin ~ ~ ~ {Silent: 1b, DeathLootTable: "daegl.overgrowth:glare", CanPickUpLoot: 0b, Tags: ["daegl_mob", "daegl.glare"], CustomName: '{"text":"Glare"}', ArmorItems: [{}, {}, {}, {id: "minecraft:carved_pumpkin", Count: 1b, tag: {CustomModelData: 3}}], ArmorDropChances: [0.085f, 0.085f, 0.085f, -1000.000f], ActiveEffects: [{Id: 14, Amplifier: 1b, Duration: 999999999, ShowParticles: 0b}]}
