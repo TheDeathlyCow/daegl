@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "daegl.overgrowth.pass_upgrade": 1
+    }
+}

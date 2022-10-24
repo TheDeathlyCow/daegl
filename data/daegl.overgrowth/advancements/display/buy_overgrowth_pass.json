@@ -10,7 +10,7 @@
         "description": {
             "text": "Buy the Overgrowth pass from the Upgrades shop"
         },
-        "frame": "task"
+        "frame": "goal"
     },
     "criteria": {
         "buy_hoe": {

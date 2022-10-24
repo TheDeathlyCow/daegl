@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_hoe",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name": "daegl.overgrowth:has_upgrade/pass"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+                {
+                    "text": "Grants entrance to The Mines of Daegl: Overgrowth",
+                    "color": "#023020"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+                "text": "Miner's Hoe",
+                "italic": false
+            }
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{Unbreakable:1b,DaeglHoe:1b,DaeglItem:1b,CanDestroy:[\"minecraft:dried_kelp_block\"],HideFlags:28}"
+        }
+    ]
+}
