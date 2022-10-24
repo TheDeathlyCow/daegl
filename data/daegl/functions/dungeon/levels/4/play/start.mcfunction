@@ -21,4 +21,7 @@ execute in tns8wg:dungeon_dim run spawnpoint @a[tag=in_daegl] 5854 -20 -4146
 kill @e[tag=daegl.start_level_tutorial]
 kill @e[tag=brewer_merchant]
 
+execute as @e[tag=daegl.gold_spawner] at @s run setblock ~ ~ ~ air replace
+
+
 

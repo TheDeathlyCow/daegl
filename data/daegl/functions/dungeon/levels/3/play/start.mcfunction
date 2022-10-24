@@ -20,4 +20,5 @@ execute as @e[tag=daegl.fireboss_marker_gold] at @s run function daegl:dungeon/l
 
 kill @e[tag=daegl.start_level_tutorial]
 
+execute as @e[tag=daegl.iron_spawner] at @s run setblock ~ ~ ~ air replace
 execute as @e[tag=daegl.gold_spawner] at @s run function daegl:dungeon/levels/place_spawner_at_marker
