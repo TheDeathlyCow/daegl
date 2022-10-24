@@ -1,6 +1,9 @@
 {
+  "replace": false,
   "values": [
     "#rx.playerdb:load",
-    "#daegl:load"
+    "#daegl:load",
+    "#daegl.overgrowth:load",
+    "bottle_o_light:load"
   ]
 }

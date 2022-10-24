@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "bottle_o_light:amethyst_bottle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bottle_o_light:amethyst_bottle_crafted"
+    }
+}

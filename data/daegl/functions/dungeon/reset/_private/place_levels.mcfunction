@@ -42,3 +42,6 @@ place template daegl:gold/14 5925 -8 -4054
 
 # boss
 function daegl:dungeon/reset/place_boss_levels
+
+# overgrowth
+function #daegl.overgrowth:reset/place_level

@@ -1,5 +1,7 @@
 {
     "values": [
-        "daegl:tick"
+        "daegl:tick",
+        "bottle_o_light:tick",
+        "#daegl.overgrowth:tick"
     ]
 }
