@@ -5,7 +5,8 @@
         "equipment": {
             "mainhand": {
                 "items": [
-                    "minecraft:light"
+                    "minecraft:light",
+                    "minecraft:panda_spawn_egg"
                 ]
             }
         }
