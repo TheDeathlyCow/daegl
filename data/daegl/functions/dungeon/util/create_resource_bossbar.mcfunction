@@ -4,6 +4,12 @@
 ## be configured per level, and this will set the display to some random default values.
 ## Will also remove any old bossbars to prevent any unwanted carry-over data.
 
+# adjust level spawner count
+tellraw @a[tag=debug] ["Spawner counter before=", {"score":{"name": "level_spawner_count", "objective": "daegl.game_variables"}}]
+scoreboard players operation level_spawner_count daegl.game_variables *= SPAWNER_MULTIPLIER_NUMERATOR daegl.constants
+scoreboard players operation level_spawner_count daegl.game_variables /= SPAWNER_MULTIPLIER_DENOMINATOR daegl.constants
+tellraw @a[tag=debug] ["Spawner counter after=", {"score":{"name": "level_spawner_count", "objective": "daegl.game_variables"}}]
+
 bossbar remove daegl:resource_bossbar
 bossbar add daegl:resource_bossbar [{"text": "Spawners Destroyed"}]
 execute store result bossbar daegl:resource_bossbar max run scoreboard players get level_spawner_count daegl.game_variables

@@ -77,6 +77,9 @@ scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 864000
 # for testing - 30 seconds between runs
 #scoreboard players set MIN_TIME_BETWEEN_RUNS daegl.constants 600
 
+# daegl spawner multiplier
+scoreboard players set SPAWNER_MULTIPLIER_NUMERATOR daegl.constants 9
+scoreboard players set SPAWNER_MULTIPLIER_DENOMINATOR daegl.constants 10
 
 # game stages
 scoreboard players set INACTIVE daegl.game_stage 0
