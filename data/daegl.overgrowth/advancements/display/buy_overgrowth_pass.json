@@ -1,0 +1,28 @@
+{
+    "parent": "daegl:dungeon_levels/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "title": {
+            "text": "Your Mother"
+        },
+        "description": {
+            "text": "Buy the Overgrowth pass from the Upgrades shop"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "buy_hoe": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "buy_hoe"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

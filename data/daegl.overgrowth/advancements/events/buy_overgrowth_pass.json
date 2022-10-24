@@ -1,0 +1,24 @@
+{
+    "parent": "daegl:events/root",
+    "criteria": {
+        "buy_hoe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:diamond_hoe"
+                    ],
+                    "nbt": "{OvergrowthUpgrade:1b}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "buy_hoe"
+        ]
+    ],
+    "rewards": {
+        "function": "daegl.overgrowth:pass/on_pass_purchase"
+    }
+}
