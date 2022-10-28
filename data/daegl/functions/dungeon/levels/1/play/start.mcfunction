@@ -14,4 +14,4 @@ bossbar set daegl:resource_bossbar color green
 bossbar set daegl:resource_bossbar name [{"text": "Spawners Destroyed", "color": "#B87333", "bold": true}]
 
 execute as @e[tag=daegl.copper_spawner] at @s run function daegl:dungeon/levels/place_spawner_at_marker
-execute as @e[tag=daegl.overgrowth.spawner] at @s run function #daegl.overgrowth:reset/place_spawner
+function #daegl.overgrowth:reset/place_spawners
