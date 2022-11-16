@@ -1,8 +1,8 @@
 {
     "parent": "daegl:events/root",
     "criteria": {
-        "requirement": {
-            "trigger": "minecraft:enter_block",
+        "enter_block": {
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
@@ -27,6 +27,11 @@
             }
         }
     },
+    "requirements": [
+        [
+            "enter_block"
+        ]
+    ],
     "rewards": {
         "function": "daegl:start_area/ferry/teleport_to_spawn"
     }
