@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blaze_rod",
+                    "name": "minecraft:ancient_debris",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1,FirestoneRod:1b}"
+                            "tag": "{CustomModelData:2,FirestoneRod:1b}"
                         }
                     ]
                 }

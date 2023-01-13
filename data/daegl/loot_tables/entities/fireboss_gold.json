@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gold_ingot",
+                    "name": "minecraft:ancient_debris",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
