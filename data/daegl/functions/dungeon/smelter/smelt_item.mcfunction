@@ -8,5 +8,5 @@ item modify block ~ ~ ~ container.0 daegl:smelt
 data modify storage daegl:smelter to_output append from block ~ ~ ~ Items[{Slot:0b}]
 item replace block ~ ~ ~ container.0 with air
 
-schedule function daegl:dungeon/smelter/output_item 5s
+schedule function daegl:dungeon/smelter/output_item 5s append
 
