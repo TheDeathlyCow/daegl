@@ -21,13 +21,6 @@
                                     "predicate": {
                                         "nbt": "{AutoSmeltLevel:1b}"
                                     }
-                                },
-                                {
-                                    "condition": "minecraft:inverted",
-                                    "term": {
-                                        "condition": "minecraft:reference",
-                                        "name": "daegl:in_daegl"
-                                    }
                                 }
                             ]
                         }

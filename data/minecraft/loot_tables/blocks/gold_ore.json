@@ -32,29 +32,12 @@
                             "name": "minecraft:raw_gold",
                             "functions": [
                                 {
-                                    "function": "minecraft:set_nbt",
-                                    "tag": "{DaeglGold:1b}",
-                                    "conditions": [
-                                        {
-                                            "condition": "minecraft:reference",
-                                            "name": "daegl:in_daegl"
-                                        }
-                                    ]
-                                },
-                                {
                                     "function": "minecraft:furnace_smelt",
                                     "conditions": [
                                         {
                                             "condition": "minecraft:match_tool",
                                             "predicate": {
                                                 "nbt": "{AutoSmeltLevel:1b}"
-                                            }
-                                        },
-                                        {
-                                            "condition": "minecraft:inverted",
-                                            "term": {
-                                                "condition": "minecraft:reference",
-                                                "name": "daegl:in_daegl"
                                             }
                                         }
                                     ]

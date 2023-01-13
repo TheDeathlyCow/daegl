@@ -55,7 +55,7 @@ scoreboard players set IRON_AMOUNT daegl.constants 250
 scoreboard players set GOLD_AMOUNT daegl.constants 150
 
 # upgrades constants
-scoreboard players set MAX_FORTUNE_LEVEL daegl.constants 3
+scoreboard players set MAX_FORTUNE_LEVEL daegl.constants 5
 scoreboard players set MAX_EFFICIENCY_LEVEL daegl.constants 5
 
 # literal constants - makes it easier to read comparisons
