@@ -25,7 +25,7 @@
                             "max": -4131
                         }
                     },
-                    "dimension": "tns8wg:dungeon_dim",
+                    "dimension": "daegl:mines",
                     "block": {
                         "blocks": [
                             "minecraft:lever"

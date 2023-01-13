@@ -10,7 +10,7 @@ function daegl:dungeon/boss/explosion_attack/next_explosion
 data modify storage daegl:dialogue to_speak.boss set from storage daegl:dialogue boss_attacks.explosion.attack.en_us
 function daegl:dialogue/speak/play_message/boss
 
-execute in tns8wg:dungeon_dim positioned 5794 -27 -4166 run fill ~ ~ ~ ~41 ~ ~47 minecraft:reinforced_deepslate replace #daegl:boss_spawner_replaceable
+execute in daegl:mines positioned 5794 -27 -4166 run fill ~ ~ ~ ~41 ~ ~47 minecraft:reinforced_deepslate replace #daegl:boss_spawner_replaceable
 
 
 
