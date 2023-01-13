@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:ancient_debris",
+                    "name": "minecraft:netherite_scrap",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
