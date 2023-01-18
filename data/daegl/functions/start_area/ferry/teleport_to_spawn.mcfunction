@@ -2,7 +2,7 @@
 
 tellraw @s [{"text": "Welcome to Spawn!", "color": "gold"}]
 
-execute in minecraft:overworld run teleport @s -605 65 1382
+execute in minecraft:overworld run tp @p 1059.31 88.00 35.11 240.92 -14.55
 execute at @s run playsound minecraft:entity.fishing_bobber.splash master @s ~ ~ ~
 execute at @s run spawnpoint @s ~ ~ ~
 

@@ -1,35 +1,44 @@
 {
     "parent": "daegl:events/root",
     "criteria": {
-        "enter_block": {
-            "trigger": "minecraft:location",
+        "press_button": {
+            "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "player": {
-                    "location": {
-                        "position": {
-                            "x": {
-                                "min": -611,
-                                "max": -610
-                            },
-                            "y": {
-                                "min": 64,
-                                "max": 65
-                            },
-                            "z": {
-                                "min": 1374,
-                                "max": 1375
-                            }
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                ],
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 1078,
+                            "max": 1079
                         },
-                        "dimension": "minecraft:overworld"
+                        "y": {
+                            "min": 89,
+                            "max": 90
+                        },
+                        "z": {
+                            "min": 23,
+                            "max": 24
+                        }
+                    },
+                    "dimension": "minecraft:overworld",
+                    "block": {
+                        "tag": "minecraft:buttons"
                     }
                 }
-                
             }
         }
     },
     "requirements": [
         [
-            "enter_block"
+            "press_button"
         ]
     ],
     "rewards": {
