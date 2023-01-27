@@ -4,6 +4,13 @@
 # The first line in the dialogue list will be the last one
 # shown to players.
 
+# System messages
+
+data modify storage daegl:dialogue system.spawners_destroyed set value '[{"text": "Spawners destroyed: ", "color": "gold"}, {"score":{"name": "spawners_destroyed", "objective": "daegl.game_variables"}, "color": "red", "bold": true}, " / ", {"score":{"name": "level_spawner_count", "objective": "daegl.game_variables"}, "color": "red", "bold": true}]'
+
+
+# Names and Styles
+
 data modify storage daegl:dialogue name.lord set value '{"text":"[Lord Ballin\' of Daegl] ", "color": "gold"}'
 data modify storage daegl:dialogue style.lord set value '{"text":"","color": "yellow"}'
 
